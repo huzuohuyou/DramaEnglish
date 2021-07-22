@@ -26,9 +26,19 @@
             <TextBlock  Style="{StaticResource TextBlock}" FontSize="40" Foreground="Black">Hello! </TextBlock>
             <TextBlock  Style="{StaticResource TextBlock}" FontSize="40"> DramaEnglish</TextBlock>
         </WrapPanel>
-       
-        <TextBox  Grid.Row="3" Style="{StaticResource TextBox}" Width="260"></TextBox>
-        <PasswordBox Grid.Row="5" Style="{StaticResource PasswordBox}" Width="260" ></PasswordBox>
-        <Button Grid.Row="7"  Style="{StaticResource PrimaryButton}" Width="260" >Sign in</Button>
+
+        <TextBox  Grid.Row="3" Style="{StaticResource TextBox}" Text="{Binding CurrentUser.UserName, UpdateSourceTrigger=PropertyChanged}"  Width="260"></TextBox>
+        <PasswordBox Grid.Row="5" Style="{StaticResource PasswordBox}" x:Name="password" Width="260" Password="000000">
+            <PasswordBox.InputBindings>
+                <KeyBinding
+                    Key="Enter"
+                    Command="{Binding LoginCommand}"
+                    CommandParameter="{Binding ElementName=password}" />
+            </PasswordBox.InputBindings>
+        </PasswordBox>
+        <Button Grid.Row="7"  Style="{StaticResource PrimaryButton}"  Command="{Binding LoginCommand}"
+            CommandParameter="{Binding ElementName=password}" Width="260" >Sign in</Button>
+        
+        
     </Grid>
 </UserControl>

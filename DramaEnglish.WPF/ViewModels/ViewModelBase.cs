@@ -16,6 +16,13 @@ namespace DramaEnglish.WPF.ViewModels
         public IRegionManager RegionManager { get; set; }
         public IDialogService DialogService { get; set; }
         public bool KeepAlive => throw new NotImplementedException();
+
+        private bool _isCanExcute;
+        public bool IsCanExcute
+        {
+            get { return _isCanExcute; }
+            set { SetProperty(ref _isCanExcute, value); }
+        }
         #endregion
 
         #region 命令
