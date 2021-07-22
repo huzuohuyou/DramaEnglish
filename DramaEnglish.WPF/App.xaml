@@ -1,0 +1,9 @@
+﻿<prism:PrismApplication x:Class="DramaEnglish.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DramaEnglish.WPF"
+              xmlns:prism="http://prismlibrary.com/">
+    <Application.Resources>
+        <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/Union.xaml" />
+    </Application.Resources>
+</prism:PrismApplication>
