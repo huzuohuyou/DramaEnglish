@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\13038.jpg" />
+    <None Remove="Resources\wallhaven-73jlxe.png" />
+    <None Remove="Resources\wallhaven-m91869.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
@@ -21,15 +27,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resources\13038.jpg">
+    <Resource Include="Resources\13038.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\wallhaven-73jlxe.png">
+    </Resource>
+    <Resource Include="Resources\wallhaven-73jlxe.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\wallhaven-m91869.jpg">
+    </Resource>
+    <Resource Include="Resources\wallhaven-m91869.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>
