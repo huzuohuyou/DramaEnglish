@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Prism.Regions;
+using System.Windows;
 
 namespace DramaEnglish.WPF.Views.Login
 {
@@ -10,6 +11,7 @@ namespace DramaEnglish.WPF.Views.Login
         public LoginWindow()
         {
             InitializeComponent();
+            
         }
     }
 }
