@@ -5,9 +5,9 @@ using Prism.Services.Dialogs;
 
 namespace DramaEnglish.UserInterface.ViewModels.Drama
 {
-    public class DramaComponetViewModel : ViewModelBase
+    public class OperateComponentViewModel : ViewModelBase
     {
-        public DramaComponetViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
+        public OperateComponentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
            : base(regionManager, dialogService, ea)
         {
         }

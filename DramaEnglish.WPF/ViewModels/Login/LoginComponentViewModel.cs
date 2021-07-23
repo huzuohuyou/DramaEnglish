@@ -14,7 +14,7 @@ using System.Windows.Controls;
 
 namespace DramaEnglish.WPF.ViewModels.Login
 {
-    public class LoginComponetViewModel : ViewModelBase
+    public class LoginComponentViewModel : ViewModelBase
     {
         #region 字段属性
 
@@ -28,7 +28,7 @@ namespace DramaEnglish.WPF.ViewModels.Login
 
         #region 构造方法
 
-        public LoginComponetViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
+        public LoginComponentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
            : base(regionManager, dialogService, ea)
         {
         }

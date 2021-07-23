@@ -20,8 +20,8 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
-        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="HeaderComponet"/>
-        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="MediaComponet"/>
-        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperateComponet"/>
+        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="HeaderComponent"/>
+        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="MediaComponent"/>
+        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperateComponent"/>
     </Grid>
 </Window>

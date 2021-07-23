@@ -5,9 +5,9 @@ namespace DramaEnglish.UserInterface.Views.Navigation
     /// <summary>
     /// NavigationContent.xaml 的交互逻辑
     /// </summary>
-    public partial class NavigationComponet : UserControl
+    public partial class NavigationComponent : UserControl
     {
-        public NavigationComponet()
+        public NavigationComponent()
         {
             InitializeComponent();
         }

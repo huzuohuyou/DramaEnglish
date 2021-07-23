@@ -18,9 +18,9 @@ namespace DramaEnglish.UserInterface.Views.Drama
     /// <summary>
     /// OperateComponet.xaml 的交互逻辑
     /// </summary>
-    public partial class OperateComponet : UserControl
+    public partial class OperateComponent : UserControl
     {
-        public OperateComponet()
+        public OperateComponent()
         {
             InitializeComponent();
         }

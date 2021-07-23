@@ -22,7 +22,7 @@ namespace DramaEnglish.WPF
         }
         public App(IRegionManager regionManager)
         {
-            regionManager.RegisterViewWithRegion("LoginRegion", typeof(LoginComponet));
+            regionManager.RegisterViewWithRegion("LoginRegion", typeof(LoginComponent));
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {

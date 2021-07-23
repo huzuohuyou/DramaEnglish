@@ -5,9 +5,9 @@ using Prism.Services.Dialogs;
 
 namespace DramaEnglish.UserInterface.ViewModels.Header
 {
-    public class HeaderComponetViewModel : ViewModelBase
+    public class HeaderComponentViewModel : ViewModelBase
     {
-        public HeaderComponetViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
+        public HeaderComponentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
            : base(regionManager, dialogService, ea)
         {
         }

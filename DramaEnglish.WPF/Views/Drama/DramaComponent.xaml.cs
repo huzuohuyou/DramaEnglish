@@ -3,11 +3,11 @@
 namespace DramaEnglish.UserInterface.Views.Drama
 {
     /// <summary>
-    /// LinesComponent.xaml 的交互逻辑
+    /// DramaComponet.xaml 的交互逻辑
     /// </summary>
-    public partial class LinesComponent : UserControl
+    public partial class DramaComponent : UserControl
     {
-        public LinesComponent()
+        public DramaComponent()
         {
             InitializeComponent();
         }
