@@ -22,8 +22,8 @@
     <Color x:Key="LightDisabledBackgroundColor">#666666</Color>
     <!--文本前景色-->
     <Color x:Key="LightGrayForegroundColor">#FFC0C0C0</Color>
-    <Color x:Key="GrayForegroundColor">#FF9EA09F</Color>
-    <Color x:Key="ForegroundColor">#FF9EA09F</Color>
+    <Color x:Key="GrayForegroundColor">#fff</Color>
+    <Color x:Key="ForegroundColor">#fff</Color>
     <Color x:Key="CommonRedForegroundColor">#FFE53505</Color>
 
     <!--button背景色-->

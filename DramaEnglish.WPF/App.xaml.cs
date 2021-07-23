@@ -26,6 +26,9 @@ namespace DramaEnglish.WPF
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            var containerEx = containerRegistry as IContainerExtension;
+            var regionManager = containerEx.Resolve<IRegionManager>();
+            PrismRegister.RegisterViewWithRegion(regionManager);
             PrismRegister.RegisterTypes(containerRegistry);
         }
     }

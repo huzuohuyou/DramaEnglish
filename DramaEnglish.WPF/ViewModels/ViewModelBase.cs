@@ -41,7 +41,6 @@ namespace DramaEnglish.WPF.ViewModels
             RegionManager = regionManager;
             DialogService = dialogService;
             EventAggregator = eventAggregator;
-            PrismRegister.RegisterViewWithRegion(regionManager);
         }
         #endregion
 

@@ -1,0 +1,6 @@
+http://ssv-video.agilestudio.cn/1080_CbOoKj/1080_CbOoKj.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/1080-2473000-2506000.vtt
+http://ssv-video.agilestudio.cn/1080_CbOoKj/1080_CbOoKj-00250.ts
+http://ssv-video.agilestudio.cn/1080_CbOoKj/1080_CbOoKj-00251.ts
+http://ssv-video.agilestudio.cn/1080_CbOoKj/1080_CbOoKj-00252.ts
+http://ssv-video.agilestudio.cn/1080_CbOoKj/1080_CbOoKj-00253.ts

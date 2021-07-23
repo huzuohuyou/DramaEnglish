@@ -1,0 +1,78 @@
+﻿
+
+名称
+状态
+类型
+发起程序
+大小
+时间
+XHR 905_izM5Bw.m3u8
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+1 ms
+Fetch collect
+Fetch
+200
+fetch
+chunk-libs.ade452d2.js:215
+100 B
+59 ms
+XHR 905-2026000-2057000.vtt
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+1.1 kB
+36 ms
+XHR 905_izM5Bw-00206.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+1 ms
+XHR 905_izM5Bw-00207.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+1 ms
+XHR 905_izM5Bw-00208.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+2 ms
+XHR 905_izM5Bw-00209.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+2 ms
+XHR 905_izM5Bw-00210.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+2 ms
+XHR 905_izM5Bw-00211.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+2 ms
+XHR 905_izM5Bw-00212.ts
+XHR
+200
+xhr
+chunk-libs.ade452d2.js:8
+(磁盘缓存)
+2 ms

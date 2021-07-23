@@ -18,10 +18,10 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="50" ></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
+            <!--<RowDefinition Height="50"></RowDefinition>-->
         </Grid.RowDefinitions>
         <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="HeaderComponent"/>
-        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="MediaComponent"/>
-        <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperateComponent"/>
+        <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="DramaComponent"/>
+        <!--<ContentControl Grid.Row="2"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperateComponent"/>-->
     </Grid>
 </Window>

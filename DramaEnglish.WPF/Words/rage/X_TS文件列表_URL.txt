@@ -1,0 +1,23 @@
+﻿
+
+Url
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw.m3u8
+XHR
+Fetch https://www.google-analytics.com/collect
+Fetch
+XHR https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/905-2026000-2057000.vtt
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00206.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00207.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00208.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00209.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00210.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00211.ts
+XHR
+XHR http://ssv-video.agilestudio.cn/905_izM5Bw/905_izM5Bw-00212.ts
+XHR

@@ -5,11 +5,38 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DramaEnglish.UserInterface.Views.Drama"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+              xmlns:prism="http://prismlibrary.com/"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        prism:ViewModelLocator.AutoWireViewModel="True" >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadingCommand}"  CommandParameter="{Binding ElementName=MediaPlayer}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
     <Border CornerRadius="12" Background="White">
-        <StackPanel >
-            <TextBlock>Drama</TextBlock>
-        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="350"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+            </Grid.RowDefinitions>
+            <MediaElement Grid.Column="0" Grid.Row="0" x:Name="MediaPlayer" LoadedBehavior="Manual"  />
+            <TextBlock Grid.Column="1"  Grid.Row="0" Text="{Binding CurrentWordLine}"></TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="{Binding CurrentWordDetail}"></TextBlock>
+            <StackPanel Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" Orientation="Horizontal">
+                <Button  Style="{StaticResource PrimaryButton}"  Command="{Binding StartCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="260" >Start</Button>
+                <Button   Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="260" >Next</Button>
+                <Button   Style="{StaticResource PrimaryButton}"  Command="{Binding StopCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="260" >Stop</Button>
+                <TextBox  Text="{Binding CurrentWord}" Width="60"></TextBox>
+            </StackPanel>
+        </Grid>
     </Border>
 
 </UserControl>
