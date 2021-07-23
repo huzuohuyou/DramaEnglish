@@ -1,6 +1,7 @@
 ﻿using DramaEnglish.WPF.ViewModels.Dialog;
 using DramaEnglish.WPF.Views.Dialog;
 using Prism.Ioc;
+using Prism.Regions;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -11,6 +12,8 @@ namespace DramaEnglish.Infrastructure.Register
     {
         #region 注册入口
 
+        private static bool registered = false;
+
         public static void RegisterTypes(IContainerRegistry containerRegistry)
         {
             Assembly serviceAss = Assembly.Load("DramaEnglish.UserInterface");
@@ -20,8 +23,22 @@ namespace DramaEnglish.Infrastructure.Register
 
             RegisterDialogWindow(containerRegistry, serviceTypes);
 
-            RegisterForNavigation(containerRegistry, serviceTypes);
+            //RegisterForNavigation(containerRegistry, serviceTypes);
 
+        }
+
+        public static void RegisterViewWithRegion(IRegionManager regionManager) {
+            if (registered)
+                return;
+            Assembly serviceAss = Assembly.Load("DramaEnglish.UserInterface");
+            Type[] serviceTypes = serviceAss.GetTypes();
+
+            var contents = serviceTypes.ToList().Where(r => r.Name.EndsWith("Componet"));
+            foreach (var item in contents)
+            {
+                regionManager.RegisterViewWithRegion(item.Name, item);
+            }
+            registered = true;
         }
 
         #endregion
@@ -40,14 +57,7 @@ namespace DramaEnglish.Infrastructure.Register
         {
             containerRegistry.RegisterDialog<DailogWindow>();
         }
-        private static void RegisterForNavigation(IContainerRegistry containerRegistry, Type[] types)
-        {
-            var contents = types.ToList().Where(r => r.Name.EndsWith("Content"));
-            foreach (var item in contents)
-            {
-                containerRegistry.RegisterForNavigation(item, item.Name);
-            }
-        }
+       
 
         #endregion
 

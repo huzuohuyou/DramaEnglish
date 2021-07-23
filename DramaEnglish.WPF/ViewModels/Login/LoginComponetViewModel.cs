@@ -13,11 +13,10 @@ using System.Windows.Controls;
 
 namespace DramaEnglish.WPF.ViewModels.Login
 {
-    public class LoginContentViewModel : ViewModelBase
+    public class LoginComponetViewModel : ViewModelBase
     {
         #region 字段属性
 
-        public override string SetMyRegion { get { return "LoginRegion"; } }
         private User _currentUser = new User() { UserName= "admin" };
         public User CurrentUser
         {
@@ -28,7 +27,7 @@ namespace DramaEnglish.WPF.ViewModels.Login
 
         #region 构造方法
 
-        public LoginContentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
+        public LoginComponetViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
            : base(regionManager, dialogService, ea)
         {
         }

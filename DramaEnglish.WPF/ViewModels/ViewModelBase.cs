@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using DramaEnglish.Infrastructure.Register;
+using Prism.Commands;
 using Prism.Events;
 using Prism.Mvvm;
 using Prism.Regions;
@@ -10,7 +11,7 @@ namespace DramaEnglish.WPF.ViewModels
     public abstract class ViewModelBase : BindableBase, INavigationAware, IRegionMemberLifetime
     {
         #region 字段属性
-        public abstract string SetMyRegion { get; }
+        public virtual string SetMyRegion { get { return "ViewModelBase"; } }
         public IEventAggregator EventAggregator;
         public IRegionNavigationJournal Journal { get; set; }
         public IRegionManager RegionManager { get; set; }
@@ -40,6 +41,7 @@ namespace DramaEnglish.WPF.ViewModels
             RegionManager = regionManager;
             DialogService = dialogService;
             EventAggregator = eventAggregator;
+            PrismRegister.RegisterViewWithRegion(regionManager);
         }
         #endregion
 

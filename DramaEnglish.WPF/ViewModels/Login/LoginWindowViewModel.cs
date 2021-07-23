@@ -13,7 +13,6 @@ namespace DramaEnglish.WPF.ViewModels.Login
     {
         #region 字段属性
 
-        public override string SetMyRegion { get { return "LoginRegion"; } }
         private Window window;
         #endregion
 
@@ -22,7 +21,7 @@ namespace DramaEnglish.WPF.ViewModels.Login
         public LoginWindowViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
            : base(regionManager, dialogService, ea)
         {
-            regionManager.RegisterViewWithRegion("LoginRegion", typeof(LoginContent));
+           
             EventAggregator.GetEvent<PubSubEvent<EnumFormStatus>>().Subscribe((status) => {
                 if (status == EnumFormStatus.mini)
                 {

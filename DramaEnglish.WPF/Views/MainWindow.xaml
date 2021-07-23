@@ -20,9 +20,9 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <DockPanel Grid.Row="0" Grid.ColumnSpan="2" LastChildFill="False" >
-            <ContentControl  prism:RegionManager.RegionName="Header" Margin="0"/>
+            <ContentControl  prism:RegionManager.RegionName="HeaderComponet" Margin="0"/>
         </DockPanel>
-        <ContentControl  Grid.Row="1" Grid.Column="0" prism:RegionManager.RegionName="Header" Margin="0"/>
+        <ContentControl  Grid.Row="1" Grid.Column="0" prism:RegionManager.RegionName="NavigationComponet" Margin="0"/>
         <ContentControl  Grid.Row="1" Grid.Column="1" prism:RegionManager.RegionName="Content" Margin="0"/>
     </Grid>
 </Window>

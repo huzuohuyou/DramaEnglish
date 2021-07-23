@@ -12,6 +12,7 @@
         <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/PasswordBox.xaml"/>
 
         <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/Grid.xaml"/>
+        <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/PrimaryGrid.xaml"/>
         <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/TextBlock.xaml"/>
         <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/ThinScrollViewer.xaml"/>
         <ResourceDictionary Source="/DramaEnglish.Styling;component/Themes/RadiusButton.xaml"/>

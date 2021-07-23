@@ -2,6 +2,7 @@
 using DramaEnglish.WPF.Views.Login;
 using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Regions;
 using System.Windows;
 
 namespace DramaEnglish.WPF
@@ -13,9 +14,16 @@ namespace DramaEnglish.WPF
     {
         protected override Window CreateShell()
         {
+
             return Container.Resolve<LoginWindow>();
         }
-
+        public App()
+        {
+        }
+        public App(IRegionManager regionManager)
+        {
+            regionManager.RegisterViewWithRegion("LoginRegion", typeof(LoginComponet));
+        }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             PrismRegister.RegisterTypes(containerRegistry);
