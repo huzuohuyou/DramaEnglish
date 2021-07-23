@@ -11,9 +11,9 @@
     <Color x:Key="LightBlackBackgroundColor">#fff</Color>
     <Color x:Key="DarkBackgroundColor">#14213d</Color>
     <!--按钮高亮色 行选中色-->
-    <Color x:Key="LightBackgroundColor">#1565C0</Color>
+    <Color x:Key="LightBackgroundColor">#BCD1FE</Color>
     <!--按钮单机-->
-    <Color x:Key="SelectedLightBackgroundColor">#0046C1</Color>
+    <Color x:Key="SelectedLightBackgroundColor">#BCD1FE</Color>
     <!--滚动条背景色-->
     <Color x:Key="BackgroundColor">#3D3D3D</Color>
     <!--失效控件背景色-->

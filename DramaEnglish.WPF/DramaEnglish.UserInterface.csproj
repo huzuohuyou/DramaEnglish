@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Database\sqlite3.def" />
     <None Remove="Resources\13038.jpg" />
     <None Remove="Resources\alter.png" />
     <None Remove="Resources\wallhaven-73jlxe.png" />
@@ -14,17 +15,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DramaEnglish.Application\DramaEnglish.Application.csproj" />
+    <ProjectReference Include="..\DramaEnglish.Domain\DramaEnglish.Domain.csproj" />
     <ProjectReference Include="..\DramaEnglish.Infrastructure\DramaEnglish.Infrastructure.csproj" />
     <ProjectReference Include="..\DramaEnglish.Styling\DramaEnglish.Styling.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Database\sqlite3.def">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\13038.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
