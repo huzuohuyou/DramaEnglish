@@ -9,8 +9,9 @@
     </ResourceDictionary.MergedDictionaries>
     
     <Style x:Key="CloseButton" TargetType="Button">
-        <Setter Property="Width" Value="20"/>
-        <Setter Property="Height" Value="20"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="FontSize" Value="30"></Setter>
         <Setter Property="DockPanel.Dock" Value="Right"></Setter>
         <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}"/>
         <Setter Property="Background" Value="Transparent"/>

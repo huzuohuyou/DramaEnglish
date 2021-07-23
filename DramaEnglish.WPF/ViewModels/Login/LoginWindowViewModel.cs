@@ -1,5 +1,4 @@
 ﻿using DramaEnglish.Styling.EventAggregator;
-using DramaEnglish.WPF.Views.Login;
 using Prism.Commands;
 using Prism.Events;
 using Prism.Regions;

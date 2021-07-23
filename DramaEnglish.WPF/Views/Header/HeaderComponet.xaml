@@ -5,8 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DramaEnglish.UserInterface.Views.Header"
              mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="800">
-    <Grid Style="{StaticResource PrimaryGrid}">
-        <TextBlock FontSize="40" >THIS IS HEADER</TextBlock>
-    </Grid>
+             Height="50" >
+        <Grid  Background="#f74c4c" >
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition  Width="30*"></ColumnDefinition>
+                <ColumnDefinition  Width="60*"></ColumnDefinition>
+              
+            </Grid.ColumnDefinitions>-->
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="0" FontSize="30" Grid.ColumnSpan="3" Foreground="White"  >Hello Drama English</TextBlock>
+        <!--<TextBlock Grid.Column="0" FontSize="30" Grid.ColumnSpan="2" Foreground="White"   >Hello Drama English</TextBlock>
+            <WrapPanel Grid.Column="1">
+                <Button Background="Transparent">左</Button>
+                <Button Background="Transparent">右</Button>
+                <TextBox Background="Transparent" Width="100" Height="30">搜索</TextBox>
+            </WrapPanel>
+            <DockPanel Grid.Column="2" LastChildFill="False">
+                
+                <Button Style="{StaticResource CloseButton}" DockPanel.Dock="Right">X</Button>
+                <Button Style="{StaticResource CloseButton}" DockPanel.Dock="Right">□</Button>
+                <Button Style="{StaticResource CloseButton}" DockPanel.Dock="Right">-</Button>
+                <Image DockPanel.Dock="Right" Width="50" Height="50"></Image>
+                
+                <TextBlock DockPanel.Dock="Right">未登录</TextBlock>
+                <Button  Background="Transparent" DockPanel.Dock="Right">设置</Button>
+            </DockPanel>-->
+        </Grid>
+
 </UserControl>

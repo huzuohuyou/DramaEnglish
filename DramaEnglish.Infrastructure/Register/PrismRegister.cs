@@ -33,7 +33,7 @@ namespace DramaEnglish.Infrastructure.Register
             Assembly serviceAss = Assembly.Load("DramaEnglish.UserInterface");
             Type[] serviceTypes = serviceAss.GetTypes();
 
-            var contents = serviceTypes.ToList().Where(r => r.Name.EndsWith("Componet"));
+            var contents = serviceTypes.ToList().Where(r => r.Name.EndsWith("Component"));
             foreach (var item in contents)
             {
                 regionManager.RegisterViewWithRegion(item.Name, item);

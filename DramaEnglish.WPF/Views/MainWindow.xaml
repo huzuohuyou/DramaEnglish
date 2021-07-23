@@ -9,20 +9,20 @@
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         prism:ViewModelLocator.AutoWireViewModel="True" 
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="900" Width="1366">
-    <Grid>
+        Title="MainWindow" Height="680" Width="1024" WindowStyle="None">
+    <Grid Style="{StaticResource Grid}"  Height="680" Width="1024">
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="630"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="190"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <DockPanel Grid.Row="0" Grid.ColumnSpan="2" LastChildFill="False" >
-            <ContentControl  prism:RegionManager.RegionName="HeaderComponet" Margin="0"/>
-        </DockPanel>
-        <ContentControl  Grid.Row="1" Grid.Column="0" prism:RegionManager.RegionName="NavigationComponet" Margin="0"/>
-        <ContentControl  Grid.Row="1" Grid.Column="1" prism:RegionManager.RegionName="Content" Margin="0"/>
+        <!--<DockPanel Grid.Row="0" Grid.ColumnSpan="2"   >-->
+        <ContentControl Grid.Row="0" Grid.ColumnSpan="2"   prism:RegionManager.RegionName="HeaderComponet"/>
+        <!--</DockPanel>-->
+        <ContentControl  Grid.Row="1" Grid.Column="0" prism:RegionManager.RegionName="NavigationComponet" />
+        <ContentControl  Grid.Row="1" Grid.Column="1" prism:RegionManager.RegionName="DramaComponet" />
     </Grid>
 </Window>

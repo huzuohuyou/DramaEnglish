@@ -1,5 +1,6 @@
 ﻿using DramaEnglish.Infrastructure;
 using DramaEnglish.Styling.EventAggregator;
+using DramaEnglish.UserInterface.Views;
 using DramaEnglish.WPF.Models;
 using DramaEnglish.WPF.Views.Login;
 using Prism.Commands;
@@ -55,7 +56,7 @@ namespace DramaEnglish.WPF.ViewModels.Login
                      DialogService.Show("WarningDialog", new DialogParameters($"message={"Name 或者 PassWord 错误!"}"), null);
                      return;
                  }
-                 ShellSwitcher.Switch<LoginWindow, MainWindow>();
+                 ShellSwitcher.Switch<LoginWindow, MainShellWindow>();
              }, (passwordBox) =>
              {
                  this.IsCanExcute = Journal != null && Journal.CanGoForward;
