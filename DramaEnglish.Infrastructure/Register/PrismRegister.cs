@@ -14,23 +14,24 @@ namespace DramaEnglish.Infrastructure.Register
 
         private static bool registered = false;
 
-        public static void RegisterTypes(IContainerRegistry containerRegistry)
+        public static void RegisterTypes(IContainerRegistry containerRegistry,string assemblyString)
         {
-            Assembly serviceAss = Assembly.Load("DramaEnglish.UserInterface");
+            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
+            Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
             RegisterDialog(containerRegistry, serviceTypes);
 
             RegisterDialogWindow(containerRegistry, serviceTypes);
 
-            //RegisterForNavigation(containerRegistry, serviceTypes);
 
         }
 
-        public static void RegisterViewWithRegion(IRegionManager regionManager) {
+        public static void RegisterViewWithRegion(IRegionManager regionManager, string assemblyString) {
             if (registered)
                 return;
-            Assembly serviceAss = Assembly.Load("DramaEnglish.UserInterface");
+            var assemblyName= Assembly.GetExecutingAssembly().GetName().Name;
+            Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
             var contents = serviceTypes.ToList().Where(r => r.Name.EndsWith("Component"));
