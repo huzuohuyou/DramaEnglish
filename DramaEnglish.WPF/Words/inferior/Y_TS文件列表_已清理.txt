@@ -1,0 +1,11 @@
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/980-3038000-3071000.vtt
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00307.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00308.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00309.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00310.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00311.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00312.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00313.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00314.ts
+http://ssv-video.agilestudio.cn/980_XFi5C1/980_XFi5C1-00315.ts

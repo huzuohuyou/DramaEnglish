@@ -1,0 +1,8 @@
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/4595-4521000-4555000.vtt
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00457.ts
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00458.ts
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00459.ts
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00460.ts
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00461.ts
+http://ssv-video.agilestudio.cn/4595_4234ca/4595_4234ca-00462.ts
