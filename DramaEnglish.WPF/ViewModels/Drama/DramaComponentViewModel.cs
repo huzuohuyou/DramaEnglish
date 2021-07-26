@@ -6,6 +6,7 @@ using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace DramaEnglish.UserInterface.ViewModels.Drama
@@ -49,7 +50,12 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         });
 
+        public DelegateCommand<Window> DragMoveCommand => new((Window) => {
+            Window.DragMove();
 
+        });
+
+        
 
         public DelegateCommand<MediaElement> NextCommand => new((MediaPlayer) =>
         {

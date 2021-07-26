@@ -14,9 +14,15 @@ namespace DramaEnglish.Infrastructure.Register
 
         private static bool registered = false;
 
-        public static void RegisterTypes(IContainerRegistry containerRegistry,string assemblyString)
+        public static void ExecureRegister(IContainerRegistry containerRegistry, string assemblyString) {
+            RegisterTypes(containerRegistry, assemblyString);
+            RegisterViewWithRegion(containerRegistry, assemblyString);
+        }
+
+
+        private static void RegisterTypes(IContainerRegistry containerRegistry,string assemblyString)
         {
-            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
+            
             Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
@@ -27,10 +33,11 @@ namespace DramaEnglish.Infrastructure.Register
 
         }
 
-        public static void RegisterViewWithRegion(IRegionManager regionManager, string assemblyString) {
+        private static void RegisterViewWithRegion(IRegionManager regionManager, string assemblyString)
+        {
             if (registered)
                 return;
-            var assemblyName= Assembly.GetExecutingAssembly().GetName().Name;
+            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
             Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
@@ -40,6 +47,13 @@ namespace DramaEnglish.Infrastructure.Register
                 regionManager.RegisterViewWithRegion(item.Name, item);
             }
             registered = true;
+        }
+
+
+        private static void RegisterViewWithRegion(IContainerRegistry containerRegistry, string assemblyString) {
+            var containerEx = containerRegistry as IContainerExtension;
+            var regionManager = containerEx.Resolve<IRegionManager>();
+            RegisterViewWithRegion(regionManager, assemblyString);
         }
 
         #endregion

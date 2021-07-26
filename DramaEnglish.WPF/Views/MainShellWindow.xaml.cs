@@ -23,5 +23,13 @@ namespace DramaEnglish.UserInterface.Views
         {
             InitializeComponent();
         }
+
+        private void ContentControl_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton==MouseButtonState.Pressed)
+            {
+                this.DragMove();
+            }
+        }
     }
 }

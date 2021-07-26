@@ -3,6 +3,7 @@ using DramaEnglish.WPF.Views.Login;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Regions;
+using System.Reflection;
 using System.Windows;
 
 namespace DramaEnglish.WPF
@@ -26,10 +27,9 @@ namespace DramaEnglish.WPF
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            var containerEx = containerRegistry as IContainerExtension;
-            var regionManager = containerEx.Resolve<IRegionManager>();
-            PrismRegister.RegisterViewWithRegion(regionManager);
-            PrismRegister.RegisterTypes(containerRegistry);
+            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
+           
+            PrismRegister.ExecureRegister(containerRegistry, assemblyName);
         }
     }
 }

@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:DramaEnglish.UserInterface.Views.Header"
              mc:Ignorable="d" 
              Height="50" >
-        <Grid  Background="#f74c4c" >
+    <Grid  Background="#1890ff" >
             <!--<Grid.ColumnDefinitions>
                 <ColumnDefinition Width="40*"></ColumnDefinition>
                 <ColumnDefinition  Width="30*"></ColumnDefinition>

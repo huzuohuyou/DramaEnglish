@@ -8,12 +8,12 @@
     <!--控件背景主题色-->
     <Color x:Key="BaseBackgroundColor">#FF3B3B3B</Color>
     <!--文本框/下拉框/datagrid 背景色-->
-    <Color x:Key="LightBlackBackgroundColor">#fff</Color>
+    <Color x:Key="LightBlackBackgroundColor">#424242</Color>
     <Color x:Key="DarkBackgroundColor">#14213d</Color>
     <!--按钮高亮色 行选中色-->
-    <Color x:Key="LightBackgroundColor">#f74c4c</Color>
+    <Color x:Key="LightBackgroundColor">#1890ff</Color>
     <!--按钮单机-->
-    <Color x:Key="SelectedLightBackgroundColor">#f74c4c</Color>
+    <Color x:Key="SelectedLightBackgroundColor">#1890ff</Color>
     <!--滚动条背景色-->
     <Color x:Key="BackgroundColor">#3D3D3D</Color>
     <!--失效控件背景色-->
@@ -22,9 +22,9 @@
     <Color x:Key="LightDisabledBackgroundColor">#666666</Color>
     <!--文本前景色-->
     <Color x:Key="LightGrayForegroundColor">#FFC0C0C0</Color>
-    <Color x:Key="GrayForegroundColor">#fff</Color>
-    <Color x:Key="ForegroundColor">#fff</Color>
-    <Color x:Key="CommonRedForegroundColor">#FFE53505</Color>
+    <Color x:Key="GrayForegroundColor">#424242</Color>
+    <Color x:Key="ForegroundColor">#424242</Color>
+    <Color x:Key="CommonRedForegroundColor">#1890ff</Color>
 
     <!--button背景色-->
     <Color x:Key="ButtonBackgroungColor">#FF5D5D5D</Color>

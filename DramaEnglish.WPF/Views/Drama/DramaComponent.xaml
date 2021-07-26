@@ -24,18 +24,26 @@
                 <RowDefinition Height="60"></RowDefinition>
                 <RowDefinition Height="60"></RowDefinition>
             </Grid.RowDefinitions>
-            <MediaElement Grid.Column="0" Grid.Row="0" x:Name="MediaPlayer" LoadedBehavior="Manual"  />
-            <TextBlock Grid.Column="1"  Grid.Row="0" Text="{Binding CurrentWordLine}"></TextBlock>
-            <TextBlock Grid.Column="0" Grid.Row="1" Text="{Binding CurrentWordDetail}"></TextBlock>
-            <StackPanel Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" Orientation="Horizontal">
-                <Button  Style="{StaticResource PrimaryButton}"  Command="{Binding StartCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="260" >Start</Button>
-                <Button   Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="260" >Next</Button>
-                <Button   Style="{StaticResource PrimaryButton}"  Command="{Binding StopCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="260" >Stop</Button>
-                <TextBox  Text="{Binding CurrentWord}" Width="60"></TextBox>
-            </StackPanel>
+            <MediaElement  Margin="10" Grid.Column="0" Grid.Row="0" x:Name="MediaPlayer" LoadedBehavior="Manual"  />
+            <ScrollViewer   Grid.Row="0" Grid.Column="1" Padding="10">
+                <TextBlock  FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="12" LineHeight="22" Text="{Binding CurrentWordLine}"></TextBlock>
+            </ScrollViewer>
+            <TextBlock  Margin="10" Grid.Column="0" FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="30" Grid.Row="1" Text="{Binding CurrentWordDetail}"></TextBlock>
+            <Grid Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button FontSize="30" Margin="10" Grid.Column="0" Foreground="#F5F5F7" Style="{StaticResource PrimaryButton}"  Command="{Binding StartCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100"  >Start</Button>
+                <Button FontSize="30" Margin="10" Grid.Column="1" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >Next</Button>
+                <Button FontSize="30" Margin="10" Grid.Column="2" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding StopCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >Stop</Button>
+                
+            </Grid>
+            <TextBox  Text="{Binding CurrentWord}" Width="60" Visibility="Collapsed"></TextBox>
         </Grid>
     </Border>
 

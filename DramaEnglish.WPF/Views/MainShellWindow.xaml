@@ -9,19 +9,17 @@
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         prism:ViewModelLocator.AutoWireViewModel="True" 
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="680" Width="1024" WindowStyle="ThreeDBorderWindow">
+        Title="MainWindow" Height="580" Width="1024"  
+        WindowStyle="None" 
+        x:Name="mainWidow"
+        AllowsTransparency="True" MouseDown="ContentControl_MouseDown">
     <Grid Margin="0">
-        <!--<Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>-->
+
         <Grid.RowDefinitions>
             <RowDefinition Height="50" ></RowDefinition>
             <RowDefinition></RowDefinition>
-            <!--<RowDefinition Height="50"></RowDefinition>-->
         </Grid.RowDefinitions>
         <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="HeaderComponent"/>
-        <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="DramaComponent"/>
-        <!--<ContentControl Grid.Row="2"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperateComponent"/>-->
+        <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="DramaComponent" />
     </Grid>
 </Window>

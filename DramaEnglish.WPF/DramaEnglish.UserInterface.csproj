@@ -7,11 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Drama\LinesComponent.xaml.cs" />
+    <Compile Remove="Views\Drama\MediaComponent.xaml.cs" />
+    <Compile Remove="Views\Drama\OperateComponent.xaml.cs" />
+    <Compile Remove="Views\Drama\WordComponent.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Database\sqlite3.def" />
+    <None Remove="Fonts\HarmonyOS_Sans_Regular.ttf" />
     <None Remove="Resources\13038.jpg" />
     <None Remove="Resources\alter.png" />
     <None Remove="Resources\wallhaven-73jlxe.png" />
     <None Remove="Resources\wallhaven-m91869.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Views\Drama\LinesComponent.xaml" />
+    <Page Remove="Views\Drama\MediaComponent.xaml" />
+    <Page Remove="Views\Drama\OperateComponent.xaml" />
+    <Page Remove="Views\Drama\WordComponent.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +46,9 @@
   <ItemGroup>
     <Resource Include="Database\sqlite3.def">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\13038.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
