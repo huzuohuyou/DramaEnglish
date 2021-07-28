@@ -124,7 +124,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             var words = new List<string>();
             try
             {
-                using (StreamReader sr = new StreamReader($@"D:\考研台词\B_贝壳今日单词_纯单词.txt"))
+                using (StreamReader sr = new StreamReader($@"D:\Github\DramaEnglish\DramaEnglish.WPF\Words\B_贝壳今日单词_纯单词.txt"))
                 {
                     while (sr.ReadLine() != null)
                     {
