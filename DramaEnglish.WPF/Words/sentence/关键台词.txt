@@ -1,0 +1,2 @@
+from sentence to sentence,
+带着我一个一个单词地读下去，

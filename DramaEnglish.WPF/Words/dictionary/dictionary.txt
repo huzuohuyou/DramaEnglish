@@ -1,0 +1,1 @@
+dictionary    n 字典；词典;

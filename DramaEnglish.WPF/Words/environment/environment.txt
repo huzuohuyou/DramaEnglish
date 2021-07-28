@@ -1,0 +1,1 @@
+environment    n 环境，外界;

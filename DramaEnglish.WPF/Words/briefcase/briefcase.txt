@@ -1,0 +1,1 @@
+briefcase    n 公文包;

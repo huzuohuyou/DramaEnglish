@@ -1,0 +1,16 @@
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627433502209
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=static&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627433502209
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627433502208
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627433502209
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627433502211
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/4883-7678000-7709000.vtt
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00776.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00777.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00778.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00779.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00780.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00781.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00782.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00783.ts
+http://ssv-video.agilestudio.cn/4883_964b7b/4883_964b7b-00784.ts

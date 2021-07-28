@@ -1,0 +1,2 @@
+Genetic compiler, incubation chamber.
+基因编译装置 孵化室

@@ -1,0 +1,2 @@
+Abstraction for the sake of abstraction.
+为了抽象而抽象

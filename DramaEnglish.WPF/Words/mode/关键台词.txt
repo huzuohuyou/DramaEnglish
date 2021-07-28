@@ -1,0 +1,2 @@
+Sentry mode.
+警戒模式

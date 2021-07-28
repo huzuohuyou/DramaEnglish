@@ -1,0 +1,1 @@
+strategy    n 战略，策略;

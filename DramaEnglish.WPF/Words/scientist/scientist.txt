@@ -1,0 +1,1 @@
+scientist    n 科学家;

@@ -1,0 +1,2 @@
+store the surplus information.
+用来存储过多的信息

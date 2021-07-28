@@ -1,0 +1,1 @@
+necklace    n 项链;

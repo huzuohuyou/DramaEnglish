@@ -1,0 +1,7 @@
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/9742-3092000-3125000.vtt
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7307.ts
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7307.ts
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7308.ts
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7309.ts
+http://ssv-video.agilestudio.cn/9742_a146b7/9742_a146b7310.ts

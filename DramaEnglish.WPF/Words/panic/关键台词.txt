@@ -1,0 +1,2 @@
+- Don't panic - Panic
+- 不要慌张 - 慌张

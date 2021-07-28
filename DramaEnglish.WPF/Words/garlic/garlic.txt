@@ -1,1 +1,1 @@
-garlic    n.大蒜，蒜头
+garlic    n 大蒜；蒜头;

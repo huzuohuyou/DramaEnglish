@@ -1,0 +1,1 @@
+neighbor    n 邻居;adj 邻近的;v 友好；毗邻而居;

@@ -1,1 +1,1 @@
-vocation    n.职业，行业，职务
+vocation    n 职业；天职；天命；神召;

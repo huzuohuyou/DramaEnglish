@@ -1,0 +1,1 @@
+aeroplane    n 飞机（等于airplane）;

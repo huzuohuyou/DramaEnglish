@@ -1,0 +1,2 @@
+Signal established.
+信号已连接

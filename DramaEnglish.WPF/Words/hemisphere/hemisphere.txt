@@ -1,0 +1,1 @@
+hemisphere    n 半球;

@@ -1,0 +1,1 @@
+typewriter    n 打字机;

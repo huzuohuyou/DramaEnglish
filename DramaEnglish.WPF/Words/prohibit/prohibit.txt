@@ -1,0 +1,1 @@
+prohibit    v 阻止，禁止;

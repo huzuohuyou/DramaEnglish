@@ -1,0 +1,7 @@
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627433436021
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627433436021
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627433436021
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=curiosity&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627433436022
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627433436023
+http://ssv-video.agilestudio.cn/926_1dO0Jw/926_1dO0Jw.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/926-6081000-6114000.vtt

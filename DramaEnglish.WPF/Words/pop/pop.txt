@@ -1,0 +1,1 @@
+pop    abbr 卖点广告（Point of Purchase）;

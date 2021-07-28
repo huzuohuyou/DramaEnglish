@@ -1,0 +1,1 @@
+dorm    n 宿舍（等于dormitory）;

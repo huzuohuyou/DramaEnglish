@@ -1,0 +1,2 @@
+Model rendered.
+模型渲染完毕

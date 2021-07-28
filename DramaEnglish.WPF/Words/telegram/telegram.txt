@@ -1,0 +1,1 @@
+telegram    n 电报;vt 用电报发送;vi 发电报;
