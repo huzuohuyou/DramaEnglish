@@ -6,6 +6,8 @@ using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -93,7 +95,19 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             {
                 using (StreamReader sr = new StreamReader($@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{word}\台词.txt"))
                 {
-                    return sr.ReadToEnd();
+                    var sb = new StringBuilder();
+                    var line = string.Empty;
+                    while ((line=sr.ReadLine())!=null)
+                    {
+                        var RegexStr = $@"^\d.*\d$";  //匹配字符串的开始和结束是否为0-9的数字[定位字符]
+                        if (!Regex.IsMatch(line, RegexStr))
+                            sb.Append($@"{line}
+");
+                        if (line.ToLower().Contains(currentWord.ToLower()))
+                            sb.Append($@"============================================
+");
+                    }
+                    return sb.ToString();
                 }
             }
             catch (Exception e)
