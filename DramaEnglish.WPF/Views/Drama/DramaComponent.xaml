@@ -13,6 +13,7 @@
             <i:InvokeCommandAction Command="{Binding LoadingCommand}"  CommandParameter="{Binding ElementName=MediaPlayer}"/>
         </i:EventTrigger>
     </i:Interaction.Triggers>
+   
     <Border CornerRadius="12" Background="White">
         <Grid>
             <Grid.ColumnDefinitions>

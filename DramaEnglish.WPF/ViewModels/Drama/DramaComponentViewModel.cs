@@ -27,6 +27,17 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
           : base(regionManager, dialogService, ea)
         {
             words = WordDBService.GetIDontKnowWORD();
+
+            EventAggregator.GetEvent<PubSubEvent<EnumPlayStatus>>().Subscribe((status) => {
+                if (status == EnumPlayStatus.next)
+                {
+                    next(this.MediaPlayer);
+                }
+                else if (status == EnumPlayStatus.iknow)
+                {
+                    iknowit(this.MediaPlayer);
+                }
+            });
         }
         #endregion
 
@@ -65,24 +76,31 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         public DelegateCommand<MediaElement> NextCommand => new((MediaPlayer) =>
         {
-            this.MediaPlayer = MediaPlayer;
+            next(MediaPlayer);
+        });
+
+        private void next(MediaElement m) {
+            this.MediaPlayer = m;
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.WatcheWord(CurrentWord);
-        });
+        }
 
         public DelegateCommand<MediaElement> IKnowCommand => new((MediaPlayer) =>
         {
-            this.MediaPlayer = MediaPlayer;
+            iknowit(MediaPlayer);
+        });
+
+        private void iknowit(MediaElement m) {
+            this.MediaPlayer = m;
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.IKnowWord(CurrentWord);
-        });
-
+        }
 
         public DelegateCommand<MediaElement> StopCommand => new((MediaPlayer) => { this.MediaPlayer = MediaPlayer; MediaPlayer.Stop(); });
 
