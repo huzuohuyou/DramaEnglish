@@ -14,15 +14,16 @@
         <!--<Setter Property="Background" Value="{StaticResource MouseOverForegroundBrush}"/>-->
         <!--<Setter Property="BorderThickness" Value="5"/>-->
         <Style.Triggers >
-            <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="Red"></Setter>
-                <Setter Property="Foreground" Value="{StaticResource ButtonForeground}"></Setter>
-                <Setter Property="BorderThickness" Value="4"></Setter>
-            </Trigger>
+            
             <Trigger Property="IsMouseOver" Value="False">
                 <Setter Property="Background" Value="{StaticResource PrimaryButtonBackground}"></Setter>
                 <Setter Property="Foreground" Value="{StaticResource ButtonForeground}"></Setter>
                 <Setter Property="BorderThickness" Value="2"></Setter>
+            </Trigger>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Red"></Setter>
+                <Setter Property="Foreground" Value="{StaticResource ButtonForeground}"></Setter>
+                <Setter Property="BorderThickness" Value="4"></Setter>
             </Trigger>
         </Style.Triggers>
     </Style>
