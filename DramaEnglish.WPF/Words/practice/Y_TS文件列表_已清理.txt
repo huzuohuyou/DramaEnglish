@@ -1,0 +1,8 @@
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627467484175
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627467484174
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627467484175
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=practice&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627467484175
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627467484177
+http://ssv-video.agilestudio.cn/9810_488f0f/9810_488f0f.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/9810-4980000-5012000.vtt
+http://ssv-video.agilestudio.cn/9810_488f0f/9810_488f0f495.ts

@@ -1,0 +1,1 @@
+ffmpeg -i D:/GitHub/DramaEnglish/DramaEnglish.WPF/Words/stress/stress.ts -vf "drawtext=fontfile='C\:\\Windows\\fonts\\Dengl.ttf': text='stress    n 压力；强调；紧张；重要性；重读;v 强调；使紧张；加压力于；用重音读;':x=10:y=10:fontsize=10:fontcolor=yellow:shadowy=2" D:/GitHub/DramaEnglish/DramaEnglish.WPF/Words/stress/stress2.ts

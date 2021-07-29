@@ -1,1 +1,1 @@
-abdomen    n 腹部；下腹；腹腔;
+abdomen    n.腹部

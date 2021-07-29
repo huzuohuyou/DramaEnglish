@@ -1,1 +1,1 @@
-spaceship    n [航] 宇宙飞船;
+spaceship    n.宇宙飞船

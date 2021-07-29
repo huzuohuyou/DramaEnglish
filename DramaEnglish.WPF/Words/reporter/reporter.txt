@@ -1,1 +1,1 @@
-reporter    n 记者;
+reporter    n.记者，报导者；报告人；通讯员

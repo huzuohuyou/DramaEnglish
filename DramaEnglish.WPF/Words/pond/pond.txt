@@ -1,1 +1,1 @@
-pond    vt 筑成池塘;vi 筑成池塘;n 池塘;
+pond    n.池塘

@@ -1,1 +1,1 @@
-compartment    n [建] 隔间；区划；卧车上的小客房;vt 分隔；划分;
+compartment    n.卧车包房，（客车车厢内的）隔间；分隔的空间

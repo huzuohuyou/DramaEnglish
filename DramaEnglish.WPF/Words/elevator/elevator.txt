@@ -1,1 +1,1 @@
-elevator    n 电梯；升降机；升降舵；起卸机;
+elevator    n.电梯，升降机

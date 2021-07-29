@@ -1,1 +1,1 @@
-outskirts    n 市郊，郊区;
+outskirts    n.郊区
