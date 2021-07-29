@@ -26,23 +26,23 @@
             </Grid.RowDefinitions>
             <MediaElement  Margin="10" Grid.Column="0" Grid.Row="0" x:Name="MediaPlayer" LoadedBehavior="Manual"  />
             <ScrollViewer   Grid.Row="0" Grid.Column="1" Padding="10">
-                <TextBlock  FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="12" LineHeight="22" Text="{Binding CurrentWordLine}"></TextBlock>
+                <TextBlock  FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="12" LineHeight="22" Text="{Binding CurrentWord.LINES2}"></TextBlock>
             </ScrollViewer>
-            <TextBlock  Margin="10" Grid.ColumnSpan="2" Padding="5" Background="#F5F5F7" Foreground="#1D1D1F" Grid.Column="0" FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="30" Grid.Row="1" Text="{Binding CurrentWordDetail}"></TextBlock>
-            <Grid Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"></ColumnDefinition>
-                    <ColumnDefinition Width="1*"></ColumnDefinition>
-                    <ColumnDefinition Width="1*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Button FontSize="30" Margin="10" Grid.Column="0" Foreground="#F5F5F7" Style="{StaticResource PrimaryButton}"  Command="{Binding StartCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="100"  >Start</Button>
-                <Button FontSize="30" Margin="10" Grid.Column="1" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="100" >Next</Button>
-                <Button FontSize="30" Margin="10" Grid.Column="2" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding StopCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
-            Width="100" >Stop</Button>
+            <TextBlock  Margin="4" Grid.ColumnSpan="2" Padding="5" Background="#F5F5F7" Foreground="#1D1D1F" Grid.Column="0" FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="30" Grid.Row="1" Text="{Binding CurrentWord.DETAIL2}"></TextBlock>
+            <StackPanel Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2"  Orientation="Horizontal" HorizontalAlignment="Center">
+         
+                    <Button FontSize="30" Style="{StaticResource PrimaryButton}" Margin="2" Foreground="#F5F5F7"  Command="{Binding GetFreshCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100"  >Fresh</Button>
+                    <Button FontSize="30" Style="{StaticResource PrimaryButton}" Margin="2" Foreground="#F5F5F7"   Command="{Binding GetHardCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100"  >Hard</Button>
                 
-            </Grid>
+                <Button FontSize="30" Margin="2" Grid.Column="1" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >Next</Button>
+
+                <Button FontSize="30" Margin="2" Padding="5" Grid.Column="2" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding IKnowCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >I Know It</Button>
+                
+            </StackPanel>
             <TextBox  Text="{Binding CurrentWord}" Width="60" Visibility="Collapsed"></TextBox>
         </Grid>
     </Border>

@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaEnglish.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaEnglish.Styling", "..\DramaEnglish.Styling\DramaEnglish.Styling.csproj", "{107D7530-22CA-4C46-A371-4933C71EF698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DramaEnglish.Application", "..\DramaEnglish.Application\DramaEnglish.Application.csproj", "{DB4E95DD-334E-4D39-8415-E4BECDB159CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaEnglish.Application", "..\DramaEnglish.Application\DramaEnglish.Application.csproj", "{DB4E95DD-334E-4D39-8415-E4BECDB159CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DramaEnglish.Domain", "..\DramaEnglish.Domain\DramaEnglish.Domain.csproj", "{8DE3A6EE-67ED-44FC-843E-6923C4958826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaEnglish.Domain", "..\DramaEnglish.Domain\DramaEnglish.Domain.csproj", "{8DE3A6EE-67ED-44FC-843E-6923C4958826}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonService", "..\..\DownloadandUnionTs\CommonService\CommonService.csproj", "{586679DA-F57C-4C9F-AFCD-47E1EF7F6B5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8DE3A6EE-67ED-44FC-843E-6923C4958826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE3A6EE-67ED-44FC-843E-6923C4958826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE3A6EE-67ED-44FC-843E-6923C4958826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586679DA-F57C-4C9F-AFCD-47E1EF7F6B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586679DA-F57C-4C9F-AFCD-47E1EF7F6B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586679DA-F57C-4C9F-AFCD-47E1EF7F6B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586679DA-F57C-4C9F-AFCD-47E1EF7F6B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
