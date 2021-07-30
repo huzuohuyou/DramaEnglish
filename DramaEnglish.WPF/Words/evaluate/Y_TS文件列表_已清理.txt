@@ -1,0 +1,5 @@
+http://ssv-video.agilestudio.cn/918_UgqEE8/918_UgqEE8.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/918-2793000-2825000.vtt
+http://ssv-video.agilestudio.cn/918_UgqEE8/918_UgqEE8-00283.ts
+http://ssv-video.agilestudio.cn/918_UgqEE8/918_UgqEE8-00284.ts
+http://ssv-video.agilestudio.cn/918_UgqEE8/918_UgqEE8-00285.ts

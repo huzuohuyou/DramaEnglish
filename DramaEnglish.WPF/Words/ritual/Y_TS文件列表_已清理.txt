@@ -3,3 +3,5 @@ https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/6926-2868000-2899000.vtt
 http://ssv-video.agilestudio.cn/6926_977a22/6926_977a22285.ts
 http://ssv-video.agilestudio.cn/6926_977a22/6926_977a22285.ts
 http://ssv-video.agilestudio.cn/6926_977a22/6926_977a22286.ts
+http://ssv-video.agilestudio.cn/6926_977a22/6926_977a22287.ts
+http://ssv-video.agilestudio.cn/6926_977a22/6926_977a22288.ts
