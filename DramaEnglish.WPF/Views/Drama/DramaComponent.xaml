@@ -8,6 +8,7 @@
               xmlns:prism="http://prismlibrary.com/"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         prism:ViewModelLocator.AutoWireViewModel="True" >
+ 
    
     <Border CornerRadius="12" Background="White">
         <Grid>
@@ -20,42 +21,29 @@
                 <RowDefinition Height="60"></RowDefinition>
                 <RowDefinition Height="60"></RowDefinition>
             </Grid.RowDefinitions>
-            <MediaElement  Margin="10" Grid.Column="0" Grid.Row="0" x:Name="mediaPlayer" LoadedBehavior="Manual"  />
+            <MediaElement  Margin="10" Grid.Column="0" Grid.Row="0" x:Name="MediaPlayer" LoadedBehavior="Manual"  >
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Loaded">
+                        <i:InvokeCommandAction Command="{Binding LoadingCommand}"  CommandParameter="{Binding ElementName=MediaPlayer}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </MediaElement>
             <ScrollViewer   Grid.Row="0" Grid.Column="1" Padding="10">
                 <TextBlock  FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="12" LineHeight="22" Text="{Binding CurrentWord.LINES2}"></TextBlock>
             </ScrollViewer>
             <TextBlock  Margin="4" Grid.ColumnSpan="2" Padding="5" Background="#F5F5F7" Foreground="#1D1D1F" Grid.Column="0" FontFamily="/Font/HarmonyOS_Sans_Regular.ttf" FontSize="30" Grid.Row="1" Text="{Binding CurrentWord.DETAIL2}"></TextBlock>
             <StackPanel Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2"  Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button FontSize="30" 
-                        Style="{StaticResource PrimaryButton}" 
-                        Margin="2"  
-                        Command="{Binding GetFreshCommand}" 
-                        CommandParameter="{Binding ElementName=mediaPlayer}"
-                        Width="100"  >Fresh</Button>
-                <Button FontSize="30" 
-                        Style="{StaticResource PrimaryButton}" 
-                        Margin="2"  
-                        Command="{Binding GetHardCommand}" 
-                        CommandParameter="{Binding ElementName=mediaPlayer}"
-                        Width="100"  >Hard</Button>
+         
+                    <Button FontSize="30" Style="{StaticResource PrimaryButton}" Margin="2" Foreground="#F5F5F7"  Command="{Binding GetFreshCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100"  >Fresh</Button>
+                    <Button FontSize="30" Style="{StaticResource PrimaryButton}" Margin="2" Foreground="#F5F5F7"   Command="{Binding GetHardCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100"  >Hard</Button>
+                
+                <Button FontSize="30" Margin="2" Grid.Column="1" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >Next</Button>
 
-                <Button FontSize="30" 
-                        Margin="2" 
-                        Grid.Column="1" 
-                        
-                        Style="{StaticResource PrimaryButton}"  
-                        Command="{Binding NextCommand}" 
-                        CommandParameter="{Binding ElementName=mediaPlayer}"
-                        Width="100" >不会</Button>
-
-                <Button FontSize="30" 
-                        Margin="2" Padding="5" 
-                        Grid.Column="2" 
-                       
-                        Style="{StaticResource PrimaryButton}"  
-                        Command="{Binding IKnowCommand}" 
-                        CommandParameter="{Binding ElementName=mediaPlayer}"
-                        Width="100" >会了</Button>
+                <Button FontSize="30" Margin="2" Padding="5" Grid.Column="2" Foreground="#F5F5F7"  Style="{StaticResource PrimaryButton}"  Command="{Binding IKnowCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"
+            Width="100" >I Know It</Button>
                 
             </StackPanel>
             <TextBox  Text="{Binding CurrentWord}" Width="60" Visibility="Collapsed"></TextBox>

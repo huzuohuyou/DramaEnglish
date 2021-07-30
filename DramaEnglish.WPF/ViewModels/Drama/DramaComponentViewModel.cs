@@ -1,4 +1,5 @@
 ﻿using CommonService.DB;
+using DramaEnglish.UserInterface.ViewModels.Header;
 using DramaEnglish.WPF.ViewModels;
 using Prism.Commands;
 using Prism.Events;
@@ -6,7 +7,6 @@ using Prism.Regions;
 using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -17,9 +17,11 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         #region 属性字段
         private MediaElement MediaPlayer;
-        private WORD currentWord =new WORD {EN="准备好了吗？" };
+        private WORD currentWord;
         public WORD CurrentWord { get { return currentWord; } set { SetProperty(ref currentWord, value); } }
-            
+
+
+
         private int Index = 0;
         private List<WORD> words;
         #endregion
@@ -40,6 +42,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
                     iknowit(this.MediaPlayer);
                 }
             });
+
+            
         }
         #endregion
 
@@ -82,14 +86,12 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         });
 
         private void next(MediaElement m) {
-            if (Index >= words.Count)
-                return;
-            this.MediaPlayer = m;
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.WatcheWord(CurrentWord);
+           //var KnowWordCount = WordDBService.IKnowWordCount();
         }
 
         public DelegateCommand<MediaElement> IKnowCommand => new((MediaPlayer) =>
@@ -98,25 +100,19 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         });
 
         private void iknowit(MediaElement m) {
-            if (Index >= words.Count)
-                return;
-            this.MediaPlayer = m;
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.IKnowWord(CurrentWord);
+            EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish( RefreshWordCount.KonwnWordCount);
         }
 
         public DelegateCommand<MediaElement> StopCommand => new((MediaPlayer) => { this.MediaPlayer = MediaPlayer; MediaPlayer.Stop(); });
 
         public DelegateCommand<MediaElement> LoadingCommand => new((MediaPlayer) =>
-        {//TODO 窗体加载时 给播放器赋值没有实现
-            if (this.MediaPlayer == null)
-            {
-                this.MediaPlayer = MediaPlayer;
-            }
-           
+        {
+            this.MediaPlayer = MediaPlayer;
         });
 
 
@@ -126,14 +122,9 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         public void Play(WORD word)
         {
-            var path = $@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN}\{currentWord.EN}.ts";
-            if (File.Exists(path))
-            {
-                MediaPlayer.Source = new Uri(path);
+            MediaPlayer.Source = new Uri($@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN}\{currentWord.EN}.ts");
 
-                MediaPlayer.Play();
-            }
-            
+            MediaPlayer.Play();
         }
 
 
