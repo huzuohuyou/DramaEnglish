@@ -1,1 +1,1 @@
-classification    n 分类；类别，等级;
+classification    n.分类，分级

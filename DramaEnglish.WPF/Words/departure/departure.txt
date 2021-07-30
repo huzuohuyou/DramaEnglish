@@ -1,1 +1,1 @@
-departure    n 离开；出发；违背;
+departure    n.出发，启程；离开；离职

@@ -1,1 +1,1 @@
-keyboard    n 键盘;v 键入；用键盘式排字机排字;
+keyboard    n.（计算机或打字机的）键盘

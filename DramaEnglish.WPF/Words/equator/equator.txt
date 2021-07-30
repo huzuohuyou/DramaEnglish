@@ -1,1 +1,1 @@
-equator    n 赤道;
+equator    n.赤道

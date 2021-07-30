@@ -1,1 +1,1 @@
-concept    n 观念，概念;
+concept    n.观念；概念；思想

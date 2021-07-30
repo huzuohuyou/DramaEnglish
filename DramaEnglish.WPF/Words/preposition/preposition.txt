@@ -1,1 +1,1 @@
-preposition    n 介词；前置词;
+preposition    n.介词
