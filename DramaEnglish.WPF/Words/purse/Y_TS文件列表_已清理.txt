@@ -1,0 +1,8 @@
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627640713925
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627640713924
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627640713925
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=purse&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627640713926
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627640713928
+http://ssv-video.agilestudio.cn/3_3286528_23_d56258/3_3286528_23_d56258.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/1160-1322000-1355000.vtt
+http://ssv-video.agilestudio.cn/3_3286528_23_d56258/3_3286528_23_d56258-00134.ts

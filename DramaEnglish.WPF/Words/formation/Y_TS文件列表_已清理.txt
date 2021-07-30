@@ -1,0 +1,17 @@
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627641569293
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627641569293
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627641569294
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=formation&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627641569294
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627641569296
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/3499-367000-398000.vtt
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00037.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00038.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00039.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00040.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00041.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00042.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00043.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00044.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00045.ts
+http://ssv-video.agilestudio.cn/3499_63e767/3499_63e767-00046.ts

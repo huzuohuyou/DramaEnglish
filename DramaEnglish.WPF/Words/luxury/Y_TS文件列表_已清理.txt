@@ -1,0 +1,9 @@
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627642734001
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627642734001
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627642734001
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=luxury&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627642734002
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627642734004
+http://ssv-video.agilestudio.cn/363_34434445_6_0a5210/363_34434445_6_0a5210.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/7556-2798000-2829000.vtt
+http://ssv-video.agilestudio.cn/363_34434445_6_0a5210/363_34434445_6_0a5210279.ts
+http://ssv-video.agilestudio.cn/363_34434445_6_0a5210/363_34434445_6_0a5210280.ts

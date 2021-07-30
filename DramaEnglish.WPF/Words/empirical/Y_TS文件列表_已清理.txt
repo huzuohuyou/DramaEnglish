@@ -1,3 +1,5 @@
-http://ssv-video.agilestudio.cn/319_33440173_5_72496f/319_33440173_5_72496f.m3u8
-https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/6977-2056000-2088000.vtt
-http://ssv-video.agilestudio.cn/319_33440173_5_72496f/319_33440173_5_72496f205.ts
+https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627641127348
+https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627641127349
+https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627641127349
+https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=empirical&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627641127349
+https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627641127351
