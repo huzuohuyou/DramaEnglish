@@ -13,10 +13,8 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="30*"></RowDefinition>
-            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Command="{Binding  GoHHCommand}" Background="Red" Width="100">aaa</Button>
-
         <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="LastLearningWordComponent"/>
         <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperationComponent"/>
 

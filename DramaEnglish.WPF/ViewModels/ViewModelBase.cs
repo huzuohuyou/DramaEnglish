@@ -1,6 +1,7 @@
 ﻿using DramaEnglish.Infrastructure.Register;
 using Prism.Commands;
 using Prism.Events;
+using Prism.Ioc;
 using Prism.Mvvm;
 using Prism.Regions;
 using Prism.Services.Dialogs;
@@ -16,6 +17,7 @@ namespace DramaEnglish.WPF.ViewModels
         public IRegionNavigationJournal Journal { get; set; }
         public IRegionManager RegionManager { get; set; }
         public IDialogService DialogService { get; set; }
+        public IContainerExtension Container { get; set; }
         public bool KeepAlive => throw new NotImplementedException();
 
         private bool _isCanExcute;
@@ -35,12 +37,20 @@ namespace DramaEnglish.WPF.ViewModels
         #endregion
 
         #region 构造
-
+        
         public ViewModelBase(IRegionManager regionManager, IDialogService dialogService, IEventAggregator eventAggregator)
         {
             RegionManager = regionManager;
             DialogService = dialogService;
             EventAggregator = eventAggregator;
+        }
+
+        public ViewModelBase(IContainerExtension container,IRegionManager regionManager, IDialogService dialogService, IEventAggregator eventAggregator)
+        {
+            RegionManager = regionManager;
+            DialogService = dialogService;
+            EventAggregator = eventAggregator;
+            Container = container;
         }
         #endregion
 

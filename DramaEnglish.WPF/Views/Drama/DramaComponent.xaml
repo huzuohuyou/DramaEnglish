@@ -66,7 +66,6 @@
                         Style="{StaticResource PrimaryButton}"  Command="{Binding IKnowCommand}" 
                         CommandParameter="{Binding ElementName=MediaPlayer}" Width="250" Background="#5bd1d7">
                     I Know It</Button>
-                <Button Command="{Binding GoHHCommand}">Goback</Button>
             </Grid>
             <TextBox  Text="{Binding CurrentWord}" Width="60" Visibility="Collapsed"></TextBox>
         </Grid>

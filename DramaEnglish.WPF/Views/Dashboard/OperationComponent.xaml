@@ -10,8 +10,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Command="{Binding  GoHHCommand}" Background="Red" Width="100">aaa</Button>
-        <!--<Button  Grid.Column="0" >
+        <Button  Grid.Column="0" Command="{Binding GoDramaCommand}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -20,7 +19,7 @@
                 <Image  Grid.Row="0" Source="/Resources/Images/电影.png"></Image>
                 <TextBlock Grid.Row="1" >学英语啦</TextBlock>
             </Grid>
-        </Button>-->
+        </Button>
         <Button Grid.Column="1">
             <Grid >
                 <Grid.RowDefinitions>
