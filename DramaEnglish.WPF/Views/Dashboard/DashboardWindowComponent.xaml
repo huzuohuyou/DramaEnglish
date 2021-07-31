@@ -5,8 +5,7 @@
         prism:ViewModelLocator.AutoWireViewModel="True" 
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="580" Width="1024"  
-        WindowStyle="None" AllowsTransparency="True"
-        >
+        WindowStyle="None" AllowsTransparency="True" >
     <Grid Margin="0">
 
         <Grid.RowDefinitions>

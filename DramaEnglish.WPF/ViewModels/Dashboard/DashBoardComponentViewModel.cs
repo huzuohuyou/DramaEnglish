@@ -1,6 +1,7 @@
 ﻿using DramaEnglish.WPF.ViewModels;
+using Prism.Commands;
 using Prism.Events;
-using Prism.Regions;
+using Prism.Regions; 
 using Prism.Services.Dialogs;
 
 namespace DramaEnglish.UserInterface.ViewModels.Dashboard
@@ -20,7 +21,10 @@ namespace DramaEnglish.UserInterface.ViewModels.Dashboard
         #endregion
 
         #region 命令
+        public DelegateCommand GoHHCommand =>  new (() => {
 
+            var a = 1;
+        });
         #endregion
 
         #region 方法函数

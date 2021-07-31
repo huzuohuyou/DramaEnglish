@@ -1,12 +1,11 @@
-﻿<UserControl x:Class="DramaEnglish.UserInterface.Views.Dashbord.DashBoardComponent"
+﻿<UserControl x:Class="DramaEnglish.UserInterface.Views.Dashboard.DashBoardComponent"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:prism="http://prismlibrary.com/"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             prism:ViewModelLocator.AutoWireViewModel="True" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -16,9 +15,10 @@
             <RowDefinition Height="30*"></RowDefinition>
             <RowDefinition Height="20*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0">aaaaaaaaaaaaa</TextBlock>
+        <Button Grid.Column="0" Command="{Binding  GoHHCommand}" Background="Red" Width="100">aaa</Button>
+
         <ContentControl Grid.Row="0"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="LastLearningWordComponent"/>
-        <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="DramaOperationComponent"/>
+        <ContentControl Grid.Row="1"  Grid.ColumnSpan="2"  prism:RegionManager.RegionName="OperationComponent"/>
 
     </Grid>
 </UserControl>

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace DramaEnglish.UserInterface.Views.Dashbord
+namespace DramaEnglish.UserInterface.Views.Dashboard
 {
     /// <summary>
     /// DashBoardComponent.xaml 的交互逻辑

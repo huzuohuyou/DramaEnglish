@@ -35,7 +35,6 @@ namespace DramaEnglish.UserInterface.ViewModels
         #endregion
 
         #region Overrides
-
         #endregion
 
         #region Private Methods

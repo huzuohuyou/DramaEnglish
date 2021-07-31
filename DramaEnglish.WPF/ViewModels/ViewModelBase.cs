@@ -28,10 +28,10 @@ namespace DramaEnglish.WPF.ViewModels
 
         #region 命令
 
-        public DelegateCommand GoBackCommand => new DelegateCommand(() => { Journal.GoBack(); });
+        public DelegateCommand GoBackCommand => new (() => { Journal.GoBack(); });
 
-        public DelegateCommand GoForwardCommand => new DelegateCommand(() => { Journal.GoForward(); });
-        
+        public DelegateCommand GoForwardCommand =>   new (()=> { Journal.GoForward(); }, ()=> { return Journal != null && Journal.CanGoForward; });
+
         #endregion
 
         #region 构造
@@ -68,6 +68,7 @@ namespace DramaEnglish.WPF.ViewModels
         }
 
         public virtual void OnNavigatedToBase(NavigationContext navigationContext) { }
+
         #endregion
 
 

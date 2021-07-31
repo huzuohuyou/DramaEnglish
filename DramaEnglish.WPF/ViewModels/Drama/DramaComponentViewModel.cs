@@ -19,7 +19,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         #region 属性字段
         private MediaElement MediaPlayer;
-        private int second=3;
+        private int second = 3;
         public int Second { get { return second; } set { SetProperty(ref second, value); } }
 
         private WORD currentWord;
@@ -38,7 +38,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         {
             words = WordDBService.GetIDontKnowWORD();
 
-            EventAggregator.GetEvent<PubSubEvent<EnumPlayStatus>>().Subscribe((status) => {
+            EventAggregator.GetEvent<PubSubEvent<EnumPlayStatus>>().Subscribe((status) =>
+            {
                 if (status == EnumPlayStatus.next)
                 {
                     next(this.MediaPlayer);
@@ -49,7 +50,6 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
                 }
             });
 
-            
         }
         #endregion
 
@@ -67,6 +67,11 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         });
 
+        public DelegateCommand GoHHCommand => new(() =>
+        {
+
+            var a = 1;
+        });
 
         public DelegateCommand<MediaElement> GetFreshCommand => new((MediaPlayer) =>
         {
@@ -89,12 +94,12 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         public DelegateCommand<MediaElement> NextCommand => new((MediaPlayer) =>
         {
             next(MediaPlayer);
-            
+
         });
 
         private void Thinking()
         {
-            
+
             IKnowIt = Visibility.Hidden;
             Task.Run(() =>
             {
@@ -108,7 +113,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             });
         }
 
-        private void next(MediaElement m) {
+        private void next(MediaElement m)
+        {
             if (Second != 3)
                 return;
             Thinking();
@@ -121,22 +127,23 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         public DelegateCommand<MediaElement> IKnowCommand => new((MediaPlayer) =>
         {
-          
+
             iknowit(MediaPlayer);
-            
+
         });
 
-        private void iknowit(MediaElement m) {
+        private void iknowit(MediaElement m)
+        {
             if (Second != 3)
                 return;
             Thinking();
-             CurrentWord = words[Index];
+            CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.IKnowWord(CurrentWord);
-            EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish( RefreshWordCount.KonwnWordCount);
-            
+            EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish(RefreshWordCount.KonwnWordCount);
+
         }
 
         public DelegateCommand<MediaElement> StopCommand => new((MediaPlayer) => { this.MediaPlayer = MediaPlayer; MediaPlayer.Stop(); });
