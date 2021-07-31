@@ -26,6 +26,13 @@
     <None Remove="Fonts\HarmonyOS_Sans_Regular.ttf" />
     <None Remove="Resources\13038.jpg" />
     <None Remove="Resources\alter.png" />
+    <None Remove="Resources\Images\云.png" />
+    <None Remove="Resources\Images\刷新.png" />
+    <None Remove="Resources\Images\发现.png" />
+    <None Remove="Resources\Images\日历.png" />
+    <None Remove="Resources\Images\楼房.png" />
+    <None Remove="Resources\Images\电影.png" />
+    <None Remove="Resources\Images\直播.png" />
     <None Remove="Resources\wallhaven-73jlxe.png" />
     <None Remove="Resources\wallhaven-m91869.jpg" />
   </ItemGroup>
@@ -63,6 +70,27 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\alter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\云.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\刷新.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\发现.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\日历.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\楼房.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\电影.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\直播.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\wallhaven-73jlxe.png">

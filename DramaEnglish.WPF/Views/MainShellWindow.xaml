@@ -17,13 +17,6 @@
         <KeyBinding  Key="Left" Command="{Binding  NextCommand}" />
         <KeyBinding Key="Right" Command="{Binding  IKnowCommand}" />
     </Window.InputBindings>
-
-    <!--<PasswordBox.InputBindings>
-        <KeyBinding
-                    Key="Enter"
-                    Command="{Binding LoginCommand}"
-                    CommandParameter="{Binding ElementName=password}" />
-    </PasswordBox.InputBindings>-->
     <Grid Margin="0">
 
         <Grid.RowDefinitions>
