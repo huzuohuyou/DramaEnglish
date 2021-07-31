@@ -7,6 +7,8 @@ using Prism.Regions;
 using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -17,10 +19,14 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         #region 属性字段
         private MediaElement MediaPlayer;
+        private int second=3;
+        public int Second { get { return second; } set { SetProperty(ref second, value); } }
+
         private WORD currentWord;
         public WORD CurrentWord { get { return currentWord; } set { SetProperty(ref currentWord, value); } }
 
-
+        public Visibility iKnowIt = Visibility.Hidden;
+        public Visibility IKnowIt { get { return iKnowIt; } set { SetProperty(ref iKnowIt, value); } }
 
         private int Index = 0;
         private List<WORD> words;
@@ -83,29 +89,54 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         public DelegateCommand<MediaElement> NextCommand => new((MediaPlayer) =>
         {
             next(MediaPlayer);
+            
         });
 
+        private void Thinking()
+        {
+            
+            IKnowIt = Visibility.Hidden;
+            Task.Run(() =>
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Thread.Sleep(1000);
+                    Second--;
+                }
+                IKnowIt = Visibility.Visible;
+                Second = 3;
+            });
+        }
+
         private void next(MediaElement m) {
+            if (Second != 3)
+                return;
+            Thinking();
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.WatcheWord(CurrentWord);
-           //var KnowWordCount = WordDBService.IKnowWordCount();
         }
 
         public DelegateCommand<MediaElement> IKnowCommand => new((MediaPlayer) =>
         {
+          
             iknowit(MediaPlayer);
+            
         });
 
         private void iknowit(MediaElement m) {
-            CurrentWord = words[Index];
+            if (Second != 3)
+                return;
+            Thinking();
+             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
             WordDBService.IKnowWord(CurrentWord);
             EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish( RefreshWordCount.KonwnWordCount);
+            
         }
 
         public DelegateCommand<MediaElement> StopCommand => new((MediaPlayer) => { this.MediaPlayer = MediaPlayer; MediaPlayer.Stop(); });
