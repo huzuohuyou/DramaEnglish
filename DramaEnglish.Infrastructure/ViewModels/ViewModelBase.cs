@@ -16,7 +16,7 @@ namespace DramaEnglish.WPF.ViewModels
         public IRegionManager RegionManager { get; set; }
         public IDialogService DialogService { get; set; }
         public IContainerExtension Container { get; set; }
-        public bool KeepAlive => false;
+        public bool KeepAlive => true;
 
         private bool _isCanExcute;
         public bool IsCanExcute

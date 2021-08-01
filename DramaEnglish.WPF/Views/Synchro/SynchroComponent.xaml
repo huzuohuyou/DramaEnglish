@@ -6,6 +6,20 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock FontSize="60">SynchroComponent</TextBlock>
-    </Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid  Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ProgressBar Grid.Column="0" Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Value="{Binding CurrentIndex}"></ProgressBar>
+            <Button Grid.Column="2" Width="200" Height="50" Command="{Binding SyncWordInfoCommand}">同步单词信息</Button>
+        </Grid>
+        <ScrollViewer Grid.Row="1">
+            <TextBlock Padding="10"  Background="#1D1D1F" Foreground="Green" LineHeight="12" Text="{Binding ScanedWords}"></TextBlock>
+        </ScrollViewer>
+         </Grid>
 </UserControl>

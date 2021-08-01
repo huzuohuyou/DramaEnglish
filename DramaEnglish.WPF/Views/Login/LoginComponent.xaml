@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
         <DockPanel Grid.Row="0" LastChildFill="False">
             <Button Style="{StaticResource CloseButton}" Command="{Binding CloseCommand}">X</Button>
-            <Button Style="{StaticResource CloseButton}" Command="{Binding MiniCommand}">-</Button>
+            <!--<Button Style="{StaticResource CloseButton}" Command="{Binding MiniCommand}">-</Button>-->
         </DockPanel>
         <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock  Style="{StaticResource TextBlock}" FontSize="40" Foreground="Black">Hello! </TextBlock>

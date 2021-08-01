@@ -135,6 +135,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
+            CurrentWord.HAVEMP4 = 1;
             WordDBService.IKnowWord(CurrentWord);
             EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish(RefreshWordCount.KonwnWordCount);
 

@@ -9,12 +9,16 @@ EN                TEXT    NOT NULL  ,
 ISWATCHED         INTEGER           ,
 DETAIL            TEXT              ,
 ISFRESH            INTEGER           ,
+HAVEMP4            INTEGER           ,
 LINES             TEXT              ,
 WORDGROUP         TEXT           ,
 CREATEDATE        TEXT           
 );
 
+.open wordDB.db
+alter table WORD add HAVEMP4 INTEGER;  
 
+select * from sqlite_master where type="table" and name="WORD";
 
 insert into WORD
 (en,iswatched,detail,ISFRESH,lines,WORDGROUP) 
