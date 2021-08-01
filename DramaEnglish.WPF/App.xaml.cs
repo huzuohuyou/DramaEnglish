@@ -14,8 +14,7 @@ namespace DramaEnglish.WPF
     public partial class App : PrismApplication
     {
         protected override Window CreateShell()
-        {
-            //MainShellWindow LoginWindow
+        {//Container Resolve 哪个窗体RegionManagerr 才能管理里边的region
             return Container.Resolve<MainShellWindow>();
         }
         public App()
