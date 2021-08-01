@@ -1,5 +1,8 @@
 ﻿using DramaEnglish.Infrastructure.Register;
+using DramaEnglish.UserInterface.ViewModels.Login;
 using DramaEnglish.UserInterface.Views;
+using DramaEnglish.UserInterface.Views.Login;
+using DramaEnglish.WPF.ViewModels.Login;
 using DramaEnglish.WPF.Views.Login;
 using Prism.DryIoc;
 using Prism.Ioc;
@@ -25,6 +28,9 @@ namespace DramaEnglish.WPF
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
             PrismRegister.ExecureRegister(containerRegistry, assemblyName);
+            //containerRegistry.RegisterDialog<LoginWindowComponent, LoginWindowComponentViewModel>();
+            containerRegistry.RegisterDialog<LoginDialog, LoginDialogViewModel>();
+            
         }
     }
 }

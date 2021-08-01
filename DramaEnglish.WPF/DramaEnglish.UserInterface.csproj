@@ -115,4 +115,8 @@
     </Page>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EventAggregators\" />
+  </ItemGroup>
+
 </Project>

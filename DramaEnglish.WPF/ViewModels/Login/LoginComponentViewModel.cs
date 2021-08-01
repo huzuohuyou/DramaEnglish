@@ -10,6 +10,7 @@ using Prism.Services.Dialogs;
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace DramaEnglish.WPF.ViewModels.Login
@@ -56,7 +57,8 @@ namespace DramaEnglish.WPF.ViewModels.Login
                      DialogService.Show("WarningDialog", new DialogParameters($"message={"Name 或者 PassWord 错误!"}"), null);
                      return;
                  }
-                 ShellSwitcher.Switch<LoginWindow, MainShellWindow>();
+                 DialogService.Show("SuccessDialog", new DialogParameters($"message={"登录成功!"}"), null);
+                 EventAggregator.GetEvent<PubSubEvent<EnumFormStatus>>().Publish(EnumFormStatus.success);
              }, (passwordBox) =>
              {
                  this.IsCanExcute = Journal != null && Journal.CanGoForward;
@@ -100,11 +102,6 @@ namespace DramaEnglish.WPF.ViewModels.Login
             try
             {
                 return true;
-                //var client = new CustomAsyncHttpClient();
-                //var r = client.PostTask<Body>(UriHelper.USER_LOGIN, currentUser).Result;
-                //Global.CurrentUser = r.Value?.User;
-                //Global.Authorization = r.Value?.Authorization;
-                //return Global.CurrentUser != null;
             }
             catch (Exception ex)
             {

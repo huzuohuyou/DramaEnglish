@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewModels\Dialog\DialogWindowViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Resources\13038.jpg" />
     <None Remove="Resources\alter.png" />
     <None Remove="Resources\wallhaven-73jlxe.png" />

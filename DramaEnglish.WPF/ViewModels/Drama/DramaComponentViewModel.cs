@@ -67,12 +67,6 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         });
 
-        public DelegateCommand GoHHCommand => new(() =>
-        {
-
-            var a = 1;
-        });
-
         public DelegateCommand<MediaElement> GetFreshCommand => new((MediaPlayer) =>
         {
             Index = 0;

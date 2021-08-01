@@ -4,5 +4,6 @@
     {
         mini,
         close,
+        success,
     }
 }

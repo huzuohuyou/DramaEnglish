@@ -3,14 +3,20 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True" 
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="580" Width="1024"  
         WindowStyle="None" 
-        x:Name="mainWidow"
+        x:Name="mainWidow" 
         AllowsTransparency="True" MouseDown="ContentControl_MouseDown">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}"  CommandParameter="{Binding ElementName=mainWidow}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
     <Window.InputBindings>
         <KeyBinding  Key="Left" Command="{Binding  NextCommand}" />
         <KeyBinding Key="Right" Command="{Binding  IKnowCommand}" />

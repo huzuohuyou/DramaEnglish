@@ -1,11 +1,9 @@
-﻿using DramaEnglish.Infrastructure.Register;
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Events;
 using Prism.Ioc;
 using Prism.Mvvm;
 using Prism.Regions;
 using Prism.Services.Dialogs;
-using System;
 
 namespace DramaEnglish.WPF.ViewModels
 {
