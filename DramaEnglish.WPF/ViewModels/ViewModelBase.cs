@@ -18,7 +18,7 @@ namespace DramaEnglish.WPF.ViewModels
         public IRegionManager RegionManager { get; set; }
         public IDialogService DialogService { get; set; }
         public IContainerExtension Container { get; set; }
-        public bool KeepAlive => throw new NotImplementedException();
+        public bool KeepAlive => false;
 
         private bool _isCanExcute;
         public bool IsCanExcute

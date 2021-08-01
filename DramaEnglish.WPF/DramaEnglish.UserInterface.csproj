@@ -16,8 +16,10 @@
 
   <ItemGroup>
     <Compile Remove="ViewModels\Dashboard\DashboardWindowComponentViewModel.cs" />
+    <Compile Remove="ViewModels\Dashboard\SwitchViewComponentViewModel.cs" />
     <Compile Remove="Views\Dashboard\DashboardWindowComponent.xaml.cs" />
     <Compile Remove="Views\Dashboard\DramaOperationComponent.xaml.cs" />
+    <Compile Remove="Views\Dashboard\SwitchViewComponent.xaml.cs" />
     <Compile Remove="Views\Drama\LinesComponent.xaml.cs" />
     <Compile Remove="Views\Drama\MediaComponent.xaml.cs" />
     <Compile Remove="Views\Drama\OperateComponent.xaml.cs" />
@@ -43,6 +45,7 @@
   <ItemGroup>
     <Page Remove="Views\Dashboard\DashboardWindowComponent.xaml" />
     <Page Remove="Views\Dashboard\DramaOperationComponent.xaml" />
+    <Page Remove="Views\Dashboard\SwitchViewComponent.xaml" />
     <Page Remove="Views\Drama\LinesComponent.xaml" />
     <Page Remove="Views\Drama\MediaComponent.xaml" />
     <Page Remove="Views\Drama\OperateComponent.xaml" />
@@ -104,6 +107,12 @@
     <Resource Include="Resources\wallhaven-m91869.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Views\Test\LoginWindow2.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
   </ItemGroup>
 
 </Project>

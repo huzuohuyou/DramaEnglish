@@ -10,7 +10,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button  Grid.Column="0" Command="{Binding GoDramaCommand}">
+        <Button  Grid.Column="0" Command="{Binding SwitchComponentCommand}" CommandParameter="DramaComponent">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -20,7 +20,7 @@
                 <TextBlock Grid.Row="1" >学英语啦</TextBlock>
             </Grid>
         </Button>
-        <Button Grid.Column="1">
+        <Button Grid.Column="1" Command="{Binding SwitchComponentCommand}" CommandParameter="WordDictnoryComponent">
             <Grid >
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -30,7 +30,7 @@
                 <TextBlock Grid.Row="1" >单词库</TextBlock>
             </Grid>
         </Button>
-        <Button  Grid.Column="2">
+        <Button  Grid.Column="2"  Command="{Binding SwitchComponentCommand}" CommandParameter="LearningLogComponent">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -40,7 +40,7 @@
                 <TextBlock Grid.Row="1" >学习日志</TextBlock>
             </Grid>
         </Button>
-        <Button  Grid.Column="3">
+        <Button  Grid.Column="3" Command="{Binding SwitchComponentCommand}" CommandParameter="SynchroComponent">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>

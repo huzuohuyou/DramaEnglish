@@ -1,8 +1,8 @@
 ﻿using DramaEnglish.Infrastructure.Register;
+using DramaEnglish.UserInterface.Views;
 using DramaEnglish.WPF.Views.Login;
 using Prism.DryIoc;
 using Prism.Ioc;
-using Prism.Regions;
 using System.Reflection;
 using System.Windows;
 
@@ -15,20 +15,16 @@ namespace DramaEnglish.WPF
     {
         protected override Window CreateShell()
         {
-
-            return Container.Resolve<LoginWindow>();
+            //MainShellWindow LoginWindow
+            return Container.Resolve<MainShellWindow>();
         }
         public App()
         {
         }
-        public App(IRegionManager regionManager)
-        {
-            regionManager.RegisterViewWithRegion("LoginRegion", typeof(LoginComponent));
-        }
+       
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
-           
             PrismRegister.ExecureRegister(containerRegistry, assemblyName);
         }
     }

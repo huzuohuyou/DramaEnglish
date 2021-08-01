@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DramaEnglish.UserInterface.Views.Dictnory
+namespace DramaEnglish.UserInterface.Views.Test
 {
     /// <summary>
-    /// WordDictnory.xaml 的交互逻辑
+    /// TestComponent.xaml 的交互逻辑
     /// </summary>
-    public partial class WordDictnory : UserControl
+    public partial class TestComponent : UserControl
     {
-        public WordDictnory()
+        public TestComponent()
         {
             InitializeComponent();
         }

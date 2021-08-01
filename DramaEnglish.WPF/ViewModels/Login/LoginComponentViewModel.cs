@@ -1,7 +1,6 @@
 ﻿using DramaEnglish.Infrastructure;
 using DramaEnglish.Styling.EventAggregator;
 using DramaEnglish.UserInterface.Views;
-using DramaEnglish.UserInterface.Views.Dashboard;
 using DramaEnglish.WPF.Models;
 using DramaEnglish.WPF.Views.Login;
 using Prism.Commands;

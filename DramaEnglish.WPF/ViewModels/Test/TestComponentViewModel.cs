@@ -3,9 +3,9 @@ using Prism.Events;
 using Prism.Regions;
 using Prism.Services.Dialogs;
 
-namespace DramaEnglish.UserInterface.ViewModels.Navigation
+namespace DramaEnglish.UserInterface.ViewModels.Test
 {
-    public class NavigationComponentViewModel : ViewModelBase
+    public class TestComponentViewModel : ViewModelBase
     {
 
         #region 字段属性
@@ -13,8 +13,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Navigation
         #endregion
 
         #region 构造函数
-        public NavigationComponentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
-          : base(regionManager, dialogService, ea)
+        public TestComponentViewModel(IRegionManager regionManager, IDialogService dialogService, IEventAggregator ea)
+         : base(regionManager, dialogService, ea)
         {
         }
         #endregion
@@ -26,7 +26,6 @@ namespace DramaEnglish.UserInterface.ViewModels.Navigation
         #region 方法函数
 
         #endregion
-
 
     }
 }
