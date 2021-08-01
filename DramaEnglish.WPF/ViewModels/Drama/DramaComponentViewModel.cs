@@ -155,9 +155,13 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         public void Play(WORD word)
         {
-            MediaPlayer.Source = new Uri($@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN}\{currentWord.EN}.ts");
+            if (this.MediaPlayer!=null)
+            {
+                this.MediaPlayer.Source = new Uri($@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN}\{currentWord.EN}.ts");
 
-            MediaPlayer.Play();
+                MediaPlayer.Play();
+            }
+           
         }
 
 

@@ -18,8 +18,8 @@
         </i:EventTrigger>
     </i:Interaction.Triggers>
     <Window.InputBindings>
-        <KeyBinding  Key="Left" Command="{Binding  NextCommand}" />
-        <KeyBinding Key="Right" Command="{Binding  IKnowCommand}" />
+        <KeyBinding  Key="Left" Command="{Binding  NextCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"/>
+        <KeyBinding Key="Right" Command="{Binding  IKnowCommand}" CommandParameter="{Binding ElementName=MediaPlayer}"/>
     </Window.InputBindings>
     <Grid Margin="0">
 

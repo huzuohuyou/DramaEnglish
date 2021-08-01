@@ -5,6 +5,7 @@ using Prism.Events;
 using Prism.Regions;
 using Prism.Services.Dialogs;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace DramaEnglish.UserInterface.ViewModels
 {
