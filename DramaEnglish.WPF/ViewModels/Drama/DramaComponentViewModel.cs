@@ -49,7 +49,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
                     iknowit(this.MediaPlayer);
                 }
             });
-
+            CurrentWord = words[Index];
+            Play(CurrentWord);
         }
         #endregion
 
@@ -131,12 +132,11 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             if (Second != 3)
                 return;
             Thinking();
+            WordDBService.IKnowWord(CurrentWord);
             CurrentWord = words[Index];
             Index++;
             Index = Index % words.Count;
             Play(CurrentWord);
-            CurrentWord.HAVEMP4 = 1;
-            WordDBService.IKnowWord(CurrentWord);
             EventAggregator.GetEvent<PubSubEvent<RefreshWordCount>>().Publish(RefreshWordCount.KonwnWordCount);
 
         }
