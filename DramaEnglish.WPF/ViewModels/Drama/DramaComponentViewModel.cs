@@ -18,8 +18,9 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
     {
 
         #region 属性字段
+        private static int WaitSecond = 2;
         private MediaElement MediaPlayer;
-        private int second =2;
+        private int second =WaitSecond;
         public int Second { get { return second; } set { SetProperty(ref second, value); } }
 
         private WORD currentWord;
@@ -98,19 +99,19 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             IKnowIt = Visibility.Hidden;
             Task.Run(() =>
             {
-                for (int i = 0; i < 2; i++)
+                for (int i = 0; i < WaitSecond; i++)
                 {
                     Thread.Sleep(1000);
                     Second--;
                 }
                 IKnowIt = Visibility.Visible;
-                Second = 2;
+                Second = WaitSecond;
             });
         }
 
         private void next(MediaElement m)
         {
-            if (Second != 2)
+            if (Second != WaitSecond)
                 return;
             Thinking();
             CurrentWord = words[Index];
@@ -129,7 +130,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         private void iknowit(MediaElement m)
         {
-            if (Second != 3)
+            if (Second != WaitSecond)
                 return;
             Thinking();
             WordDBService.IKnowWord(CurrentWord);
@@ -157,7 +158,8 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
         {
             if (this.MediaPlayer!=null)
             {
-                this.MediaPlayer.Source = new Uri($@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN}\{currentWord.EN}.ts");
+                var uri = $@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words\{currentWord.EN.Trim()}\{currentWord.EN.Trim()}.mp4";
+                this.MediaPlayer.Source = new Uri(uri);
 
                 MediaPlayer.Play();
             }
