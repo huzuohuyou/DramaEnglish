@@ -19,7 +19,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
 
         #region 属性字段
         private MediaElement MediaPlayer;
-        private int second = 3;
+        private int second =2;
         public int Second { get { return second; } set { SetProperty(ref second, value); } }
 
         private WORD currentWord;
@@ -98,19 +98,19 @@ namespace DramaEnglish.UserInterface.ViewModels.Drama
             IKnowIt = Visibility.Hidden;
             Task.Run(() =>
             {
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < 2; i++)
                 {
                     Thread.Sleep(1000);
                     Second--;
                 }
                 IKnowIt = Visibility.Visible;
-                Second = 3;
+                Second = 2;
             });
         }
 
         private void next(MediaElement m)
         {
-            if (Second != 3)
+            if (Second != 2)
                 return;
             Thinking();
             CurrentWord = words[Index];
