@@ -1,10 +1,3 @@
 http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/481-679000-710000.vtt
 http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00070.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00071.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00072.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00073.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00074.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00075.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00076.ts
-http://ssv-video.agilestudio.cn/481_dcc648/481_dcc648-00077.ts

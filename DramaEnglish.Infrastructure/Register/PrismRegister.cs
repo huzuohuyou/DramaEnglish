@@ -14,15 +14,16 @@ namespace DramaEnglish.Infrastructure.Register
 
         private static bool registered = false;
 
-        public static void ExecureRegister(IContainerRegistry containerRegistry, string assemblyString) {
+        public static void ExecureRegister(IContainerRegistry containerRegistry, string assemblyString)
+        {
             RegisterTypes(containerRegistry, assemblyString);
             RegisterViewWithRegion(containerRegistry, assemblyString);
         }
 
 
-        private static void RegisterTypes(IContainerRegistry containerRegistry,string assemblyString)
+        private static void RegisterTypes(IContainerRegistry containerRegistry, string assemblyString)
         {
-            
+
             Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
@@ -37,7 +38,6 @@ namespace DramaEnglish.Infrastructure.Register
         {
             if (registered)
                 return;
-            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
             Assembly serviceAss = Assembly.Load(assemblyString);
             Type[] serviceTypes = serviceAss.GetTypes();
 
@@ -46,11 +46,21 @@ namespace DramaEnglish.Infrastructure.Register
             {
                 regionManager.RegisterViewWithRegion(item.Name, item);
             }
+            foreach (var item in serviceTypes)
+            {
+                var attr = (AutoRegisterAttribute)item.GetCustomAttribute(typeof(AutoRegisterAttribute), false);
+                if (attr != null && attr.Register && attr.RegionName != null)
+                {
+                    regionManager.RegisterViewWithRegion(attr.RegionName, item);
+                }
+            }
+
             registered = true;
         }
 
 
-        private static void RegisterViewWithRegion(IContainerRegistry containerRegistry, string assemblyString) {
+        private static void RegisterViewWithRegion(IContainerRegistry containerRegistry, string assemblyString)
+        {
             var containerEx = containerRegistry as IContainerExtension;
             var regionManager = containerEx.Resolve<IRegionManager>();
             RegisterViewWithRegion(regionManager, assemblyString);
@@ -72,8 +82,25 @@ namespace DramaEnglish.Infrastructure.Register
         {
             containerRegistry.RegisterDialog<DailogWindow>();
         }
-       
 
+
+        [AttributeUsage(AttributeTargets.Class)]
+        public class AutoRegisterAttribute : Attribute
+        {
+            public bool Register { get; }
+
+            public string RegionName { get; }
+            public AutoRegisterAttribute(bool register, string regionName)
+            {
+                Register = register;
+                RegionName = regionName;
+            }
+
+            public AutoRegisterAttribute(bool register)
+            {
+                Register = register;
+            }
+        }
         #endregion
 
     }

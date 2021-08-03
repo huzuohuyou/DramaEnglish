@@ -1,5 +1,3 @@
 http://ssv-video.agilestudio.cn/182_10797516_5_7e35ce/182_10797516_5_7e35ce.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/4306-1130000-1163000.vtt
 http://ssv-video.agilestudio.cn/182_10797516_5_7e35ce/182_10797516_5_7e35ce-00116.ts
-http://ssv-video.agilestudio.cn/182_10797516_5_7e35ce/182_10797516_5_7e35ce-00117.ts
-http://ssv-video.agilestudio.cn/182_10797516_5_7e35ce/182_10797516_5_7e35ce-00118.ts

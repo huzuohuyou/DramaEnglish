@@ -1,4 +1,3 @@
 http://ssv-video.agilestudio.cn/4673_25128a/4673_25128a.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/4673-6020000-6051000.vtt
 http://ssv-video.agilestudio.cn/4673_25128a/4673_25128a-00609.ts
-http://ssv-video.agilestudio.cn/4673_25128a/4673_25128a-00610.ts

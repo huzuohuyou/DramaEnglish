@@ -1,0 +1,10 @@
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/991-2713000-2745000.vtt
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00275.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00276.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00277.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00278.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00279.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00280.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00281.ts
+http://ssv-video.agilestudio.cn/991_49a47e/991_49a47e-00282.ts

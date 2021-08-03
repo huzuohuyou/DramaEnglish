@@ -2,4 +2,3 @@ http://ssv-video.agilestudio.cn/9726_9fca09/9726_9fca09.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/9726-5933000-5968000.vtt
 http://ssv-video.agilestudio.cn/9726_9fca09/9726_9fca09589.ts
 http://ssv-video.agilestudio.cn/9726_9fca09/9726_9fca09589.ts
-http://ssv-video.agilestudio.cn/9726_9fca09/9726_9fca09590.ts

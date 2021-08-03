@@ -1,0 +1,4 @@
+http://ssv-video.agilestudio.cn/6905_cba69d/6905_cba69d.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/6905-3952000-3988000.vtt
+http://ssv-video.agilestudio.cn/6905_cba69d/6905_cba69d392.ts
+http://ssv-video.agilestudio.cn/6905_cba69d/6905_cba69d392.ts

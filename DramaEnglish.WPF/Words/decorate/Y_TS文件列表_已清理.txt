@@ -1,0 +1,4 @@
+http://ssv-video.agilestudio.cn/1088_MLtFy2/1088_MLtFy2.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/1088-2160000-2191000.vtt
+http://ssv-video.agilestudio.cn/1088_MLtFy2/1088_MLtFy2-00219.ts
+http://ssv-video.agilestudio.cn/1088_MLtFy2/1088_MLtFy2-00220.ts

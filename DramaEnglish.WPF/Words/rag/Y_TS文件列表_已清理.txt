@@ -1,0 +1,4 @@
+http://ssv-video.agilestudio.cn/1070_WDKVzF/1070_WDKVzF.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/1070-5506000-5542000.vtt
+http://ssv-video.agilestudio.cn/1070_WDKVzF/1070_WDKVzF-00556.ts
+http://ssv-video.agilestudio.cn/1070_WDKVzF/1070_WDKVzF-00556.ts

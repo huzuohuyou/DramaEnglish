@@ -1,6 +1,2 @@
 http://ssv-video.agilestudio.cn/6948_88b50d/6948_88b50d.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/6948-3298000-3332000.vtt
-http://ssv-video.agilestudio.cn/6948_88b50d/6948_88b50d328.ts
-http://ssv-video.agilestudio.cn/6948_88b50d/6948_88b50d329.ts
-http://ssv-video.agilestudio.cn/6948_88b50d/6948_88b50d330.ts
-http://ssv-video.agilestudio.cn/6948_88b50d/6948_88b50d331.ts

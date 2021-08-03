@@ -1,0 +1,2 @@
+http://ssv-video.agilestudio.cn/6933_49a160/6933_49a160.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/6933-3522000-3556000.vtt
