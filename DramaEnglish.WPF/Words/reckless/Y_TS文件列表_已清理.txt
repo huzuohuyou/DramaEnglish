@@ -1,2 +1,4 @@
 http://ssv-video.agilestudio.cn/303_1a3022/303_1a3022.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/303-579000-610000.vtt
+http://ssv-video.agilestudio.cn/303_1a3022/303_1a3022-00059.ts
+http://ssv-video.agilestudio.cn/303_1a3022/303_1a3022-00060.ts

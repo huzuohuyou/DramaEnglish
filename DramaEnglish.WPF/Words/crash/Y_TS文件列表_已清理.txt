@@ -1,9 +1,3 @@
-https://ssv-api.agilestudio.cn/api/dict/lang-options?_platform=web&_versioin=0.2.5&_ts=1627433340708
-https://ssv-api.agilestudio.cn/api/search?subtitleKeyword=crash&exactFlag=0&phraseMode=0&page=1&limit=20&_platform=web&_versioin=0.2.5&_ts=1627433340709
-https://ssv-api.agilestudio.cn/api/dict/video-category-options?_platform=web&_versioin=0.2.5&_ts=1627433340708
-https://ssv-api.agilestudio.cn/api/dict/video-type-options?_platform=web&_versioin=0.2.5&_ts=1627433340708
-https://ssv-api.agilestudio.cn/api/message/unread-count?_platform=web&_versioin=0.2.5&_ts=1627433340710
-http://ssv-video.agilestudio.cn/9061_daede5/9061_daede5.m3u8
-https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/9061-2246000-2279000.vtt
-http://ssv-video.agilestudio.cn/9061_daede5/9061_daede5223.ts
-http://ssv-video.agilestudio.cn/9061_daede5/9061_daede5225.ts
+http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/3398-1228000-1261000.vtt
+http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d-00125.ts

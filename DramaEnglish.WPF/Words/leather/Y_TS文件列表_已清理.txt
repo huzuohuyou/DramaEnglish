@@ -1,5 +1,3 @@
 http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/3398-1228000-1261000.vtt
 http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d-00125.ts
-http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d-00126.ts
-http://ssv-video.agilestudio.cn/124_4765764_12_7cad2d/124_4765764_12_7cad2d-00127.ts

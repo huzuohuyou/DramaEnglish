@@ -1,0 +1,4 @@
+http://ssv-video.agilestudio.cn/642_bbcbb3/642_bbcbb3.m3u8
+https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/642-1375000-1408000.vtt
+http://ssv-video.agilestudio.cn/642_bbcbb3/642_bbcbb3-00140.ts
+http://ssv-video.agilestudio.cn/642_bbcbb3/642_bbcbb3-00141.ts

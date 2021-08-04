@@ -1,5 +1,5 @@
 http://ssv-video.agilestudio.cn/348_30192448_5_9b2f0a/348_30192448_5_9b2f0a.m3u8
 https://ssv-api.agilestudio.cn/api/video/vtt-subtitle/7323-2466000-2499000.vtt
 http://ssv-video.agilestudio.cn/348_30192448_5_9b2f0a/348_30192448_5_9b2f0a245.ts
+http://ssv-video.agilestudio.cn/348_30192448_5_9b2f0a/348_30192448_5_9b2f0a245.ts
 http://ssv-video.agilestudio.cn/348_30192448_5_9b2f0a/348_30192448_5_9b2f0a246.ts
-http://ssv-video.agilestudio.cn/348_30192448_5_9b2f0a/348_30192448_5_9b2f0a247.ts
