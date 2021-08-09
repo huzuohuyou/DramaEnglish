@@ -1,1 +1,1 @@
-obstacle    n 障碍，干扰；妨害物;
+obstacle    n.障碍，绊脚石

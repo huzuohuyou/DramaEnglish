@@ -1,1 +1,1 @@
-internet    n 因特网;
+Internet    n.因特网, 国际互联网

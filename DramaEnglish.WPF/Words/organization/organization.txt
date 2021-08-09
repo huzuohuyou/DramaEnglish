@@ -1,1 +1,1 @@
-organization    n 组织；机构；体制；团体;
+organization    n.组织，机构；体制，结构

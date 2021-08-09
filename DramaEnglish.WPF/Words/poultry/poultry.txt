@@ -1,1 +1,1 @@
-poultry    n 家禽;
+poultry    n.家禽；禽肉

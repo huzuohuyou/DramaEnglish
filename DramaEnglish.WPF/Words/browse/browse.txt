@@ -1,1 +1,1 @@
-browse    v 浏览；吃草;n 浏览；吃草;
+browse    vi.吃嫩叶或草；浏览

@@ -1,1 +1,1 @@
-physician    n [医] 医师；内科医师;
+physician    n.医生；内科医生

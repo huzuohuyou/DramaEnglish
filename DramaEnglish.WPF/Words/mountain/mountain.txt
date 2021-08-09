@@ -1,1 +1,1 @@
-mountain    n 山；山脉;
+mountain    n.山, 高山, 山脉, 山岭

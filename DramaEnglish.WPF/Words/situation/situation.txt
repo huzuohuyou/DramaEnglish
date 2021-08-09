@@ -1,1 +1,1 @@
-situation    n 情况；形势；处境；位置;
+situation    n.情况, 形势, 处境,〈正式〉工作, 地点

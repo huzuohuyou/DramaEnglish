@@ -1,1 +1,1 @@
-adverb    n 副词;adj 副词的;
+adverb    n.副词

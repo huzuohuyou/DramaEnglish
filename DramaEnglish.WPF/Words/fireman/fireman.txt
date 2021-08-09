@@ -1,1 +1,1 @@
-fireman    n 消防队员；救火队员；锅炉工;
+fireman    n.消防队员

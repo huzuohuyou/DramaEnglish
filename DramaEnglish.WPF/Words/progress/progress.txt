@@ -1,1 +1,1 @@
-progress    n 进步，发展；前进;v 前进，进步；进行;
+progress    n.进步，发展；前进

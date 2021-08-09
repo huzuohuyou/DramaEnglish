@@ -1,1 +1,1 @@
-cemetery    n 墓地；公墓;
+cemetery    n.坟墓，公墓

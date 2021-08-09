@@ -1,1 +1,1 @@
-explanation    n 说明，解释；辩解;
+explanation    n.解释，说明

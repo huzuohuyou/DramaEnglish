@@ -1,1 +1,1 @@
-decrease    n 减少，减小；减少量;v 减少，减小;
+decrease    v.减少，减小，减弱，降低

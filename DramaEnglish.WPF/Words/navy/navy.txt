@@ -1,1 +1,1 @@
-navy    n 海军;
+navy    n.海军

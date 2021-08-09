@@ -1,1 +1,1 @@
-spelling    n 拼写；拼字；拼法;v 拼写；意味着（spell的ing形式）；迷住;
+spelling    n.拼写, 拼法, 拼写能力

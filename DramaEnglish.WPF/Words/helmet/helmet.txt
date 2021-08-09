@@ -1,1 +1,1 @@
-helmet    n 钢盔，头盔;
+helmet    n.头盔; 防护帽

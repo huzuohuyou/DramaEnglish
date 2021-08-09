@@ -1,1 +1,1 @@
-appointment    n 任命；约定；任命的职位;
+appointment    n.任命，委派；约会，约定，预约

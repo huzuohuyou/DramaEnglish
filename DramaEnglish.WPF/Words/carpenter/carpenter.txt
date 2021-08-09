@@ -1,1 +1,1 @@
-carpenter    n 木匠，木工;v 当木匠，做木匠工作;
+carpenter    n.木工，木匠

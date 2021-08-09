@@ -1,1 +1,1 @@
-inference    n 推理；推论；推断;
+inference    n.推断，推论，推理；推断的结论

@@ -1,1 +1,1 @@
-overtime    n [劳经] 加班时间；延长时间；加时赛;adj 超时的；加班的;vt 使超过时间;adv 加班地;
+overtime    adv.超过；在加班时间内

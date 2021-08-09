@@ -1,1 +1,1 @@
-doorway    n 门口；途径;
+doorway    n.门口

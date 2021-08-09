@@ -1,1 +1,1 @@
-county    n 郡，县;
+county    n.（英国）郡，（美国）县

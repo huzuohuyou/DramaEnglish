@@ -1,1 +1,1 @@
-opponent    n 对手；反对者；敌手;adj 对立的；敌对的;
+opponent    n.对手，敌手；反对者

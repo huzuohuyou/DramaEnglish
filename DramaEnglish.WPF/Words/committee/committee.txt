@@ -1,1 +1,1 @@
-committee    n 委员会;
+committee    n.委员会，全体委员

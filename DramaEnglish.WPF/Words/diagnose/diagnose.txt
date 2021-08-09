@@ -1,1 +1,1 @@
-diagnose    v 诊断；断定;
+diagnose    v.诊断（疾病等）；判断所存在问题的性质

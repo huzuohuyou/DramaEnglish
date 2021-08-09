@@ -1,1 +1,1 @@
-passport    n 护照，通行证；手段;
+passport    n.护照

@@ -1,1 +1,1 @@
-fireplace    n 壁炉;
+fireplace    n.壁炉

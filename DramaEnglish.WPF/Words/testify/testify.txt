@@ -1,1 +1,1 @@
-testify    v 证明，证实；作证;
+testify    v.证明；作证；证实

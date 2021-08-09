@@ -1,1 +1,1 @@
-addition    n 添加；[数] 加法；增加物;
+addition    n.增加；附加物；加；加法

@@ -1,1 +1,1 @@
-december    n 十二月;
+December    n.十二月

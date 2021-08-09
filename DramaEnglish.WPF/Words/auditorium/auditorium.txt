@@ -1,1 +1,1 @@
-auditorium    n 礼堂，会堂；观众席;
+auditorium    n.礼堂；观众席

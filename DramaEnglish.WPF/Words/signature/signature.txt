@@ -1,1 +1,1 @@
-signature    n 署名；签名；信号;
+signature    n.签名，署名；签字；字帖；识别标志；鲜明特色

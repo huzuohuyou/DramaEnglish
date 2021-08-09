@@ -1,1 +1,1 @@
-smog    n 烟雾;
+smog    n.烟雾

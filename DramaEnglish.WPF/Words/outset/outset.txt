@@ -1,1 +1,1 @@
-outset    n 开始；开端;
+outset    n.开始，开端

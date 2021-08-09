@@ -1,1 +1,1 @@
-textbook    n 教科书，课本;
+textbook    adj.规范的, 标准的

@@ -1,1 +1,1 @@
-dispute    v 辩论；怀疑；阻止；抗拒;n 辩论；争吵;
+dispute    n.争论；争吵

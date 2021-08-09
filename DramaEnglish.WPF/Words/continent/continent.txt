@@ -1,1 +1,1 @@
-continent    n 大陆，洲，陆地;adj 自制的，克制的;
+continent    n.洲; 大陆

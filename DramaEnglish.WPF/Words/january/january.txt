@@ -1,1 +1,1 @@
-january    n 一月;
+January    n.一月

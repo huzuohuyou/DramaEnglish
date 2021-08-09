@@ -1,1 +1,1 @@
-peasant    n 农民；乡下人;
+peasant    n.农民；庄稼人；乡下人

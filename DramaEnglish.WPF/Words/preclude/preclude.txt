@@ -1,1 +1,1 @@
-preclude    v 排除；妨碍；阻止;
+preclude    vt.妨碍，阻止

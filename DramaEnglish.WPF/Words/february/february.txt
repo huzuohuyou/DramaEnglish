@@ -1,1 +1,1 @@
-february    n 二月;
+February    n.二月

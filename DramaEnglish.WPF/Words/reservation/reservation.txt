@@ -1,1 +1,1 @@
-reservation    n 预约，预订；保留;
+reservation    n.预订，预约；保留意见

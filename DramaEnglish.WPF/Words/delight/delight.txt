@@ -1,1 +1,1 @@
-delight    n 高兴;v 高兴;
+delight    n.快乐，愉快

@@ -1,1 +1,1 @@
-motel    n 汽车旅馆;
+motel    n.汽车旅馆

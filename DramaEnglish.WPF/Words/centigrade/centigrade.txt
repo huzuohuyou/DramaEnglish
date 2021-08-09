@@ -1,1 +1,1 @@
-centigrade    adj 摄氏的；[仪] 摄氏温度的；百分度的;
+centigrade    n.摄氏温度计；百分度

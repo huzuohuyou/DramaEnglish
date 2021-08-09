@@ -1,1 +1,1 @@
-minority    n 少数民族；少数派；未成年;adj 少数的；属于少数派的;
+minority    n.少数；少数民族

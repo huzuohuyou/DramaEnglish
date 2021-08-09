@@ -1,1 +1,1 @@
-cease    v 停止；终了;n 停止;
+cease    v.停止，终止

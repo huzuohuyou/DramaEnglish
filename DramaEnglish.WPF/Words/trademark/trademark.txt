@@ -1,1 +1,1 @@
-trademark    n 商标;
+trademark    n.商标

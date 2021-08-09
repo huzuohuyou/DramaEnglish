@@ -1,1 +1,1 @@
-attention    n 注意力；关心；立正！（口令）;
+attention    int.注意, 立正

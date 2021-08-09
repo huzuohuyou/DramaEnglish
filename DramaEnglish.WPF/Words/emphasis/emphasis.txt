@@ -1,1 +1,1 @@
-emphasis    n 重点；强调；加强语气;
+emphasis    n.重要性；重点强调；重点

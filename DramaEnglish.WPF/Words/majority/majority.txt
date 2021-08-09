@@ -1,1 +1,1 @@
-majority    n 多数；成年;
+majority    n.多数；大多数；法定成年年龄

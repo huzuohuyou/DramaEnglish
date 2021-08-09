@@ -1,1 +1,1 @@
-surprise    n 惊奇，诧异；突然袭击;v 使惊奇；奇袭;adj 令人惊讶的;
+surprise    adj.出乎意料的, 令人惊奇的

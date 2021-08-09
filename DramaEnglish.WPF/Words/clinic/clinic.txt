@@ -1,1 +1,1 @@
-clinic    n 临床；诊所;
+clinic    n.诊所，门诊部，科室

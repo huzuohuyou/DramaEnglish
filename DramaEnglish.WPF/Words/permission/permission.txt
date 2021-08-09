@@ -1,1 +1,1 @@
-permission    n 允许，许可;
+permission    n.同意，许可，准许；正式批准文件，许可证

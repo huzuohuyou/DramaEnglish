@@ -1,1 +1,1 @@
-astronomy    n 天文学;
+astronomy    n.天文学

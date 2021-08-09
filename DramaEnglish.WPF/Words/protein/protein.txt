@@ -1,1 +1,1 @@
-protein    n 蛋白质；朊;adj 蛋白质的;
+protein    n.［总称］（尤指作为饮食成分）蛋白质

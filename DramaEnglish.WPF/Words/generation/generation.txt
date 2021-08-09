@@ -1,1 +1,1 @@
-generation    n 一代；产生；一代人；生殖;
+generation    n.代，一代；产生

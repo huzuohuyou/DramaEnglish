@@ -1,1 +1,1 @@
-friction    n 摩擦，[力] 摩擦力;
+friction    n.摩擦，摩擦力，分歧

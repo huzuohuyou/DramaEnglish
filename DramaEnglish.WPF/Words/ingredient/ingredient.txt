@@ -1,1 +1,1 @@
-ingredient    n 原料；要素；组成部分;adj 构成组成部分的;
+ingredient    n.（菜肴的）配料，原料；成分，因素，要素

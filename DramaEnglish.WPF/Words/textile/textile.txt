@@ -1,1 +1,1 @@
-textile    n 纺织品，织物;adj 纺织的;
+textile    n.织物；纺织品；纺织业

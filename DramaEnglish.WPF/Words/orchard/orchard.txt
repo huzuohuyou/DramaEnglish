@@ -1,1 +1,1 @@
-orchard    n 果园；果树林;
+orchard    n.果园

@@ -1,1 +1,1 @@
-triangle    n 三角（形）；三角关系；三角形之物；三人一组;
+triangle    n.三角形

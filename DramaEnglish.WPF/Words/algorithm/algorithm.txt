@@ -1,0 +1,1 @@
+algorithm    n.算法, 计算程序

@@ -1,1 +1,1 @@
-technician    n 技师，技术员；技巧纯熟的人;
+technician    n.技术员，专门技师，技工

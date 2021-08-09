@@ -1,1 +1,1 @@
-locality    n 所在；位置；地点;
+locality    n.地区，位置，地点，发生地

@@ -1,1 +1,1 @@
-kneel    v 跪下，跪;
+kneel    vi.跪，下跪

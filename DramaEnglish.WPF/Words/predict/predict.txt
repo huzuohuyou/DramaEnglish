@@ -1,1 +1,1 @@
-predict    v 预报，预言；预知;
+predict    v.预言；预测；预告

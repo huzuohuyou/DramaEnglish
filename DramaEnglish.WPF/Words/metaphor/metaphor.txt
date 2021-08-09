@@ -1,1 +1,1 @@
-metaphor    n 暗喻，隐喻；比喻说法;
+metaphor    n.隐喻，暗喻

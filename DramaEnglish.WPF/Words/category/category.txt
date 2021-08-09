@@ -1,1 +1,1 @@
-category    n 种类，分类；[数] 范畴;
+category    n.种类，类别

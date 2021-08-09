@@ -1,1 +1,1 @@
-longitude    n [地理] 经度；经线;
+longitude    n.经度

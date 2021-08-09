@@ -1,0 +1,1 @@
+goodbye    int.再见, 再会

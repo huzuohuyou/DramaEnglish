@@ -1,1 +1,1 @@
-ankle    n 踝关节，踝;
+ankle    n.踝

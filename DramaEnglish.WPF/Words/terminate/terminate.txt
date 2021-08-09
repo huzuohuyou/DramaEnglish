@@ -1,1 +1,1 @@
-terminate    v 使终止；使结束；解雇;adj 结束的;
+terminate    v.结束；终止；到达终点站

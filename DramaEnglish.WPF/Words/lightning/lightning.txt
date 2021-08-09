@@ -1,1 +1,1 @@
-lightning    adj 闪电的；快速的;n 闪电;vi 闪电;
+lightning    n.闪电

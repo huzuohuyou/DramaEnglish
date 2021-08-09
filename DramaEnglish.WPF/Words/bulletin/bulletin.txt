@@ -1,1 +1,1 @@
-bulletin    n 公告，公报;v 公布，公告;
+bulletin    n.公告，告示；新闻快报；简报

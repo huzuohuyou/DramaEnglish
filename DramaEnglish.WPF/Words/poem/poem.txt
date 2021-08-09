@@ -1,1 +1,1 @@
-poem    n 诗;
+poem    n.诗, 韵文

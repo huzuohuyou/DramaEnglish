@@ -1,1 +1,1 @@
-headquarters    n 总部；指挥部；司令部;
+headquarters    n.司令部，指挥部；总部，总局

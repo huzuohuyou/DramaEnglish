@@ -1,1 +1,1 @@
-moisture    n 水分；湿度；潮湿；降雨量;
+moisture    n.潮湿，湿气，湿度

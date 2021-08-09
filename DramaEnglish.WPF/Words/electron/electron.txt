@@ -1,1 +1,1 @@
-electron    n 电子;
+electron    n.电子

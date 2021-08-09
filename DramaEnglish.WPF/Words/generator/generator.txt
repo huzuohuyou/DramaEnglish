@@ -1,1 +1,1 @@
-generator    n 发电机；发生器；生产者;
+generator    n.发电机，发生器

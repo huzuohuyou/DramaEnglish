@@ -1,1 +1,1 @@
-inhibit    v 抑制；禁止;
+inhibit    vt.阻止，妨碍，抑制

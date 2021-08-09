@@ -1,1 +1,1 @@
-twinkle    v 闪烁；发亮;n 闪烁;
+twinkle    vi.闪烁，闪亮

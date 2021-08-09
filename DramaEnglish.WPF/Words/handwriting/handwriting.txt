@@ -1,1 +1,1 @@
-handwriting    n 笔迹；书法；书写；手稿;v 亲手写（handwrite的ing形式）;
+handwriting    n.笔迹，手迹，书法

@@ -1,1 +1,1 @@
-sunshine    n 阳光；愉快；晴天；快活;
+sunshine    n.日光，日照

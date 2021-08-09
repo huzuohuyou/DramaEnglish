@@ -1,1 +1,1 @@
-opportunity    n 时机，机会;
+opportunity    n.机会, 时机

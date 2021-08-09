@@ -1,1 +1,1 @@
-musician    n 音乐家;
+musician    n.音乐家, 乐师, 作曲家

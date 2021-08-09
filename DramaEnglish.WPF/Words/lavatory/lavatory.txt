@@ -1,1 +1,1 @@
-lavatory    n 厕所，盥洗室;
+lavatory    n.厕所，盥洗室

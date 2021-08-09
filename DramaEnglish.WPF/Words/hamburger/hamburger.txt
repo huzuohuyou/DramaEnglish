@@ -1,1 +1,1 @@
-hamburger    n 汉堡包，火腿汉堡；牛肉饼，肉饼；碎牛肉;
+hamburger    n.汉堡包，牛肉饼

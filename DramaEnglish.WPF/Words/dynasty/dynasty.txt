@@ -1,1 +1,1 @@
-dynasty    n 王朝，朝代;
+dynasty    n.王朝，朝代

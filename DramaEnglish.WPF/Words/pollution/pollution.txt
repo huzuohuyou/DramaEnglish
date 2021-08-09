@@ -1,1 +1,1 @@
-pollution    n 污染;
+pollution    n.污染, 污染物, 垃圾, 玷污

@@ -1,1 +1,1 @@
-unemployment    n 失业；失业率；失业人数;
+unemployment    n.失业人数；失业比率；失业；失业状态

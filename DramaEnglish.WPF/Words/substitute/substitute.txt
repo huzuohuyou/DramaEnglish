@@ -1,1 +1,1 @@
-substitute    n 代用品；代替者;v 替代;
+substitute    n.代替者；代替物

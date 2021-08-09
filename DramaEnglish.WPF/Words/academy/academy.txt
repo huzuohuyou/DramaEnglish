@@ -1,1 +1,1 @@
-academy    n 学院；研究院；学会；专科院校;
+academy    n.学院，研究院

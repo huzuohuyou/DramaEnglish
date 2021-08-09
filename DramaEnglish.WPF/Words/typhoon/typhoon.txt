@@ -1,1 +1,1 @@
-typhoon    n [气象] 台风;
+typhoon    n.台风

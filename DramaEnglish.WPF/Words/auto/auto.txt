@@ -1,1 +1,1 @@
-auto    n 汽车（等于automobile）；自动;vi 乘汽车;
+auto    n.汽车

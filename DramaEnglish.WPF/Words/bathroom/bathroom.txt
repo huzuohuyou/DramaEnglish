@@ -1,1 +1,1 @@
-bathroom    n 浴室；厕所；盥洗室;
+bathroom    n.浴室, 卫生间, 洗手间, 厕所

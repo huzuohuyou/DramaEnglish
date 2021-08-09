@@ -1,1 +1,1 @@
-furnace    n 火炉，熔炉;
+furnace    n.炉子，熔炉

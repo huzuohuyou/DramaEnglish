@@ -1,1 +1,1 @@
-quantify    v 量化；为…定量；确定数量;
+quantify    v.定量；量化

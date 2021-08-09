@@ -1,1 +1,1 @@
-knowledge    n 知识，学问；知道，认识；学科;
+knowledge    n.知识, 了解, 学问, 学识

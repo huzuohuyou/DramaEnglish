@@ -1,1 +1,1 @@
-participant    adj 参与的；有关系的;n 参与者；关系者;
+participant    n.参与者，参加者

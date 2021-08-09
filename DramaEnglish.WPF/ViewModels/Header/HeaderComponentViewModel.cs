@@ -16,6 +16,9 @@ namespace DramaEnglish.UserInterface.ViewModels.Header
         private int knowWordCount;
         public int KnowWordCount { get { return knowWordCount; } set { SetProperty(ref knowWordCount, value); } }
 
+        private int hasMP4Count;
+        public int HasMP4Count { get { return hasMP4Count; } set { SetProperty(ref hasMP4Count, value); } }
+
         #endregion
 
         #region Properties
@@ -44,6 +47,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Header
             {
                 AlltWordCount = WordDBService.AllWordCount();
                 KnowWordCount = WordDBService.IKnowWordCount();
+                HasMP4Count = WordDBService.HasMP4Count();
             }
 
 

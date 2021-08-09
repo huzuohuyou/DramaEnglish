@@ -1,1 +1,1 @@
-summary    adj 简易的；扼要的;n 概要，摘要，总结;
+summary    n.总结；概括；概要

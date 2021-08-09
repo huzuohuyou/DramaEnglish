@@ -1,1 +1,1 @@
-pretend    v 假装，伪装，佯装;adj 假装的;
+pretend    adj.假装的, 想象的

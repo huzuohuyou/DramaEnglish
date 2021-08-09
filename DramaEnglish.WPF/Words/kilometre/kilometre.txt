@@ -1,1 +1,1 @@
-kilometre    n [计量] 公里；[计量] 千米;
+kilometre    n.(=<美>kilometer) 公里, 千米

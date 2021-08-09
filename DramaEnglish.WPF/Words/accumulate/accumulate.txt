@@ -1,1 +1,1 @@
-accumulate    v 累积；积聚;
+accumulate    v.聚集；积累

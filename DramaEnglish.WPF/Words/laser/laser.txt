@@ -1,1 +1,1 @@
-laser    n 激光;
+laser    n.激光

@@ -1,1 +1,1 @@
-excursion    n 偏移；远足；短程旅行；离题；游览，游览团;
+excursion    n.远足；短途旅行

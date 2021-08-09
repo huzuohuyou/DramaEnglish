@@ -1,1 +1,1 @@
-probability    n 可能性；机率；[数] 或然率;
+probability    n.【数】概率；可能性；或然性

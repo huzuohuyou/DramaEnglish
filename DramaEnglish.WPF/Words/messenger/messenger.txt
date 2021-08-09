@@ -1,1 +1,1 @@
-messenger    n 报信者，送信者；先驱;
+messenger    n.信使, 送信人, 通信员, 邮递员

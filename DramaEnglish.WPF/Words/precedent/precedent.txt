@@ -1,1 +1,1 @@
-precedent    n 先例；前例;adj 在前的；在先的;
+precedent    n.先例，前例；范例；惯例

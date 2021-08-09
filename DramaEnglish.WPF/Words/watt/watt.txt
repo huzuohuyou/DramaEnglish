@@ -1,1 +1,1 @@
-watt    n 瓦特;
+watt    n.瓦，瓦特

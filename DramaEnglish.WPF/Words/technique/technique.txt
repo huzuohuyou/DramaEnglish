@@ -1,1 +1,1 @@
-technique    n 技巧，技术；手法;
+technique    n.技术, 工艺, 技巧, 技能

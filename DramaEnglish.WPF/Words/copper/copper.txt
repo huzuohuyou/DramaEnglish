@@ -1,1 +1,1 @@
-copper    n 铜；铜币；警察;adj 铜制的;v 镀铜;
+copper    n.铜（符号: Cu）；铜币，铜制器

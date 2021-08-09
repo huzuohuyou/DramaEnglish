@@ -1,1 +1,1 @@
-deduct    v 扣除，减去；演绎;
+deduct    vt.扣除；演绎

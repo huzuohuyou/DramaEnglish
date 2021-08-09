@@ -1,1 +1,1 @@
-mercury    n [化]汞，水银;
+Mercury    n.水星; (m小写)水银, 汞

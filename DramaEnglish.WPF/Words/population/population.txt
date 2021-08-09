@@ -1,1 +1,1 @@
-population    n 人口；[生物] 种群，[生物] 群体；全体居民;
+population    n.人口，种群

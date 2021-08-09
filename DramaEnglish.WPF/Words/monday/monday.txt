@@ -1,1 +1,1 @@
-monday    n 星期一;
+Monday    n.周一

@@ -1,1 +1,1 @@
-constituent    n 成分；选民；委托人;adj 构成的；选举的;
+constituent    n.组成部分, 成分; 选区居民; 选民; 委托人

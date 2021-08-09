@@ -1,1 +1,1 @@
-river    n 河，江;
+river    n.河, 河流

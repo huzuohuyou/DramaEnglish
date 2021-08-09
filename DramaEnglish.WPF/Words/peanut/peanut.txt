@@ -1,1 +1,1 @@
-peanut    n 花生;
+peanut    n.花生

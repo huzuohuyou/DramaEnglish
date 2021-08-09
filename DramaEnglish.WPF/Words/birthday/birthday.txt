@@ -1,1 +1,1 @@
-birthday    n 生日，诞辰；诞生的日子;
+birthday    n.生日

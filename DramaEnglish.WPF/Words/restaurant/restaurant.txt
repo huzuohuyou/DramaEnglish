@@ -1,1 +1,1 @@
-restaurant    n 餐馆；[经] 饭店;
+restaurant    n.餐厅, 餐馆

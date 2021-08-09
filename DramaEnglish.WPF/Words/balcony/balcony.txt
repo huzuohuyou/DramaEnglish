@@ -1,1 +1,1 @@
-balcony    n 阳台；包厢；戏院楼厅;
+balcony    n.阳台；（剧院的）楼座

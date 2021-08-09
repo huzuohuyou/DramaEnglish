@@ -1,1 +1,1 @@
-civilian    adj 民用的；百姓的，平民的;n 平民，百姓;
+civilian    adj.平民的，民间的；民用的，非军用的

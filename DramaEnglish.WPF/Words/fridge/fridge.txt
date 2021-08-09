@@ -1,1 +1,1 @@
-fridge    n 电冰箱;
+fridge    n.（=refrigerator）电冰箱

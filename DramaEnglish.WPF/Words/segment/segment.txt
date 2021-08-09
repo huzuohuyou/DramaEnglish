@@ -1,1 +1,1 @@
-segment    v 分割;n 段；部分;
+segment    n.片段；部分；弓形

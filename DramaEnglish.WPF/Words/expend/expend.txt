@@ -1,1 +1,1 @@
-expend    v 花费；消耗；用光；耗尽;
+expend    vt.消费，花费

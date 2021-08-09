@@ -1,1 +1,1 @@
-announce    v 宣布；述说；预示；播报;
+announce    v.宣布，公布

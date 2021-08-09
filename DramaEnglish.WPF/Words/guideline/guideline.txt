@@ -1,1 +1,1 @@
-guideline    n 指导方针;
+guideline    n.指导方针，准则

@@ -1,1 +1,1 @@
-voltage    n [电] 电压;
+voltage    n.电压

@@ -1,1 +1,1 @@
-biography    n 传记；档案；个人简介;
+biography    n.传记

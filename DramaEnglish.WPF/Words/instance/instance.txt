@@ -1,1 +1,1 @@
-instance    n 实例；情况；建议;v 举为例;
+instance    n.实例, 例子, 事例

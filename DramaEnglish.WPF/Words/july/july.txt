@@ -1,1 +1,1 @@
-july    n 七月;
+July    n.七月

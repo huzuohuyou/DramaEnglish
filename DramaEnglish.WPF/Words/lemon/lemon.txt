@@ -1,1 +1,1 @@
-lemon    adj 柠檬色的;n 柠檬;
+lemon    n.柠檬

@@ -1,1 +1,1 @@
-vegetation    n 植被；植物，草木；呆板单调的生活;
+vegetation    n.植物，草木

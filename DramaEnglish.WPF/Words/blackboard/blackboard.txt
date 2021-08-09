@@ -1,1 +1,1 @@
-blackboard    n 黑板;
+blackboard    n.黑板

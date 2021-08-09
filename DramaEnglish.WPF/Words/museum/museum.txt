@@ -1,1 +1,1 @@
-museum    n 博物馆;
+museum    n.博物馆

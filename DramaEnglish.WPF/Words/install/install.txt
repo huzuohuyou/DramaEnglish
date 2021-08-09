@@ -1,1 +1,1 @@
-install    v 安装；任命；安顿;
+install    v.安装；安置，安顿；任命

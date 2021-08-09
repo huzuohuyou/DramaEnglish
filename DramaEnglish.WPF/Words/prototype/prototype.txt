@@ -1,1 +1,1 @@
-prototype    n 原型；标准，模范;
+prototype    n.原型，雏形

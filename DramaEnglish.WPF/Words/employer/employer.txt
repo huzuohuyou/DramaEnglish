@@ -1,1 +1,1 @@
-employer    n 雇主，老板;
+employer    n.雇主

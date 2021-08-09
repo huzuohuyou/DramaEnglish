@@ -1,1 +1,1 @@
-lubricate    v 润滑；涂油；起润滑剂作用;
+lubricate    v.润滑，加润滑剂

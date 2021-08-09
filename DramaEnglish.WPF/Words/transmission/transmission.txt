@@ -1,1 +1,1 @@
-transmission    n 传动装置，[机] 变速器；传递；传送；播送;
+transmission    n.传输，传送；播送，播送的内容；传动装置

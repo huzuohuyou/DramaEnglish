@@ -1,1 +1,1 @@
-dimension    n 方面;[数] 维；尺寸；次元；容积 vt标出尺寸;adj 规格的;
+dimension    n.尺寸；容积；维（数）；维数度

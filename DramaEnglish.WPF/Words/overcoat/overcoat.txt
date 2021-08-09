@@ -1,1 +1,1 @@
-overcoat    n 大衣，外套;
+overcoat    n.长大衣

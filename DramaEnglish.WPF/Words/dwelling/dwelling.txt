@@ -1,1 +1,1 @@
-dwelling    n 住处；寓所;v 居住（dwell的现在分词）;
+dwelling    n.住宅，寓所

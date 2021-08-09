@@ -1,1 +1,1 @@
-paddle    n 划桨；明轮翼;v 拌；搅；用桨划;
+paddle    n.桨

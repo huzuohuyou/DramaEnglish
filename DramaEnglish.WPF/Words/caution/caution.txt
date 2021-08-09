@@ -1,1 +1,1 @@
-caution    n 小心，谨慎；警告，警示;v 警告;
+caution    v.警告，提醒，告诫

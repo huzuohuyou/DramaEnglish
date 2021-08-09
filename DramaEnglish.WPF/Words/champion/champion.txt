@@ -1,1 +1,1 @@
-champion    n 冠军；拥护者；战士;v 支持；拥护;adj 优胜的；第一流的;
+champion    n.冠军；拥护者

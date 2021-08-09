@@ -1,1 +1,1 @@
-illness    n 病；疾病;
+illness    n.病, （某种）病, 患病期

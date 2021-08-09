@@ -1,1 +1,1 @@
-deficit    n 赤字；不足额;
+deficit    n.赤字，逆差

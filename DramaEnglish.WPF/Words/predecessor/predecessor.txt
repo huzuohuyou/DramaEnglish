@@ -1,1 +1,1 @@
-predecessor    n 前任，前辈;
+predecessor    n.前辈；前任；原先的事物

@@ -1,1 +1,1 @@
-contaminate    v 污染，弄脏;
+contaminate    vt.弄脏，污染

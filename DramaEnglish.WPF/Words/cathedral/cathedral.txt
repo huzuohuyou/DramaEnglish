@@ -1,1 +1,1 @@
-cathedral    n 大教堂;
+cathedral    n.大教堂

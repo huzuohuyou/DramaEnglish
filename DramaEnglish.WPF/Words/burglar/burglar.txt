@@ -1,1 +1,1 @@
-burglar    n 夜贼，窃贼;
+burglar    n.窃贼

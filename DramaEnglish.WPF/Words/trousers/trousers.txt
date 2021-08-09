@@ -1,1 +1,1 @@
-trousers    n 裤子，长裤;
+trousers    n.裤子

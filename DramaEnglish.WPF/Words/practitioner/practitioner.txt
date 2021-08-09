@@ -1,1 +1,1 @@
-practitioner    n 开业者，从业者，执业医生;
+practitioner    n.开业者(尤指医生、律师等)，从业者

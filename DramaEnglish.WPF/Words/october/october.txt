@@ -1,1 +1,1 @@
-october    n [天] 十月;
+October    n.十月

@@ -1,1 +1,1 @@
-zebra    n [脊椎] 斑马;adj 有斑纹的;
+zebra    n.斑马

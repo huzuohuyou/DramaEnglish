@@ -1,1 +1,1 @@
-simulate    v 模仿；假装；冒充;adj 模仿的；假装的;
+simulate    v.模仿；计算机模拟；假装，冒充

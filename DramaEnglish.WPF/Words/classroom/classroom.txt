@@ -1,1 +1,1 @@
-classroom    n 教室;
+classroom    n.教室, 教学活动, 教学方法

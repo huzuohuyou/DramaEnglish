@@ -1,1 +1,1 @@
-housework    n 家务事;
+housework    n.家务事, 家务劳动

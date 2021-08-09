@@ -1,1 +1,1 @@
-tv    abbr 电视（television）;
+TV    n.电视, 电视机

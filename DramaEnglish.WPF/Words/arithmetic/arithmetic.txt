@@ -1,1 +1,1 @@
-arithmetic    n 算术，算法;
+arithmetic    n.算术

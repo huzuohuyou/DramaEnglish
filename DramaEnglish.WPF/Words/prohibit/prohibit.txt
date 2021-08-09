@@ -1,1 +1,1 @@
-prohibit    v 阻止，禁止;
+prohibit    v.（通过法律、条例等）禁止，阻止

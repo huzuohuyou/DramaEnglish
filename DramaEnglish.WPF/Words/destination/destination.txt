@@ -1,1 +1,1 @@
-destination    n 目的地，终点;
+destination    n.目的地，送达地点；终点

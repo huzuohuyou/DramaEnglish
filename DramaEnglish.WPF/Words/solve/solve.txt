@@ -1,1 +1,1 @@
-solve    v 解决；解答；溶解;
+solve    vt.解决，解答

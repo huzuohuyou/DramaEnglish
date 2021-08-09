@@ -1,1 +1,1 @@
-edition    n 版本;
+edition    n.版，版本，版次

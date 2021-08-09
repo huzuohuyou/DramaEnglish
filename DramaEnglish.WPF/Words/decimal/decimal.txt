@@ -1,1 +1,1 @@
-decimal    adj 小数的；十进位的;n 小数;
+decimal    n.小数

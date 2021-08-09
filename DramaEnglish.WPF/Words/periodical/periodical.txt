@@ -1,1 +1,1 @@
-periodical    adj [数] 周期的；定期的;n 期刊；杂志;
+periodical    n.期刊

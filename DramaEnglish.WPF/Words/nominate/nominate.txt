@@ -1,1 +1,1 @@
-nominate    v 推荐；提名；任命；指定;
+nominate    vt.提名；指派，指定

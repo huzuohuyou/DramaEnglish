@@ -1,1 +1,1 @@
-agriculture    n 农业；农耕；农业生产；农艺，农学;
+agriculture    n.农业

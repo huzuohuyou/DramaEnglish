@@ -1,1 +1,1 @@
-environment    n 环境，外界;
+environment    n.环境，条件；生态环境；自然环境

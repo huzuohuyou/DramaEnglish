@@ -1,1 +1,1 @@
-humidity    n [气象] 湿度；湿气;
+humidity    n.（空气）湿度；湿气；湿热

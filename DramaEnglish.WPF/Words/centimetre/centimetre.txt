@@ -1,1 +1,1 @@
-centimetre    n 厘米；公分;
+centimetre    n.厘米，公分

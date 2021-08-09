@@ -1,1 +1,1 @@
-brandy    n 白兰地酒;
+brandy    n.白兰地酒

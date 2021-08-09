@@ -1,1 +1,1 @@
-accountant    n 会计师；会计人员;
+accountant    n.会计人员，会计师

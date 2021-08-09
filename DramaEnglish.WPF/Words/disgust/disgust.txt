@@ -1,1 +1,1 @@
-disgust    n 厌恶，嫌恶;v 使厌恶；使作呕;
+disgust    n.厌恶，憎恶

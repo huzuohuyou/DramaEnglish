@@ -1,1 +1,1 @@
-corporation    n 公司；法人（团体）；社团；大腹便便；市政当局;
+corporation    n.公司；法人团体；法人；企业

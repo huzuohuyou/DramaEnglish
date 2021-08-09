@@ -1,1 +1,1 @@
-inhabitant    n 居民；居住者;
+inhabitant    n.居民; 住户; 常住居民; 栖居的动物

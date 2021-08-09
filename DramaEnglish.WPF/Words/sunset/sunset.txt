@@ -1,1 +1,1 @@
-sunset    n 日落，傍晚;
+sunset    n.日落

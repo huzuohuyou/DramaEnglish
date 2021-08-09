@@ -1,1 +1,1 @@
-staircase    n 楼梯;
+staircase    n.（建筑物内的）楼梯

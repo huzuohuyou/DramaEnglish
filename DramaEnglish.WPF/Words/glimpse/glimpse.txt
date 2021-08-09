@@ -1,1 +1,1 @@
-glimpse    n 一瞥，一看;v 瞥见;
+glimpse    n.一眼，一瞥

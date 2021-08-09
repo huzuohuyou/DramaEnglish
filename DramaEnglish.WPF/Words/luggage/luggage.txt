@@ -1,1 +1,1 @@
-luggage    n 行李；皮箱;
+luggage    n.行李

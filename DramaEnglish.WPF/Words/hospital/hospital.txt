@@ -1,1 +1,1 @@
-hospital    n 医院;
+hospital    n.医院

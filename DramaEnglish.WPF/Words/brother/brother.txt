@@ -1,1 +1,1 @@
-brother    n 兄弟；同事；战友;int 我的老兄！;
+brother    int.表示生气或吃惊

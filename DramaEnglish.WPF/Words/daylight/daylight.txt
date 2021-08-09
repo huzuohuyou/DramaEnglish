@@ -1,1 +1,1 @@
-daylight    n 白天；日光；黎明；公开;
+daylight    n.日光

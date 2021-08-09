@@ -1,1 +1,1 @@
-distress    n 危难，不幸；贫困；悲痛;v 使悲痛；使贫困;
+distress    n.苦恼；危难；不幸

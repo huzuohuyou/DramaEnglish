@@ -1,1 +1,1 @@
-parameter    n 参数；系数；参量;
+parameter    n.参数

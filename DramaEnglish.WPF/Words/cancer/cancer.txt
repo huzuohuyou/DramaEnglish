@@ -1,1 +1,1 @@
-cancer    n 癌症；恶性肿瘤;
+cancer    n.癌，癌症

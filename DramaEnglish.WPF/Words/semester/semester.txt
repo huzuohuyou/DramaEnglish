@@ -1,1 +1,1 @@
-semester    n 学期；半年;
+semester    n.学期

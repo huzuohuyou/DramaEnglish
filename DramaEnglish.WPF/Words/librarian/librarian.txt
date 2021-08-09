@@ -1,1 +1,1 @@
-librarian    n 图书馆员；图书管理员;
+librarian    n.图书管理员

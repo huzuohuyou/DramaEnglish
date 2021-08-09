@@ -1,1 +1,1 @@
-apparatus    n 装置，设备；仪器；器官;
+apparatus    n.装置，器具，机构，组织

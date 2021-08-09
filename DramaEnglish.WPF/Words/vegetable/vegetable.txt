@@ -1,1 +1,1 @@
-vegetable    n 蔬菜；植物；植物人;adj 蔬菜的；植物的;
+vegetable    adj.植物(性)的, 得自植物的, 关于植物的, 蔬菜的

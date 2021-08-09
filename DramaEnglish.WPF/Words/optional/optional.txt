@@ -1,1 +1,1 @@
-optional    adj 可选择的，随意的;n 选修科目;
+optional    adj.可以任选的，非强制的

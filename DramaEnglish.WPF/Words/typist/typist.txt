@@ -1,1 +1,1 @@
-typist    n 打字员，打字者;
+typist    n.打字员

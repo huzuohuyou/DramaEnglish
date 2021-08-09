@@ -1,1 +1,1 @@
-petroleum    n 石油;
+petroleum    n.石油

@@ -1,1 +1,1 @@
-soccer    n 英式足球，足球;
+soccer    n.足球运动

@@ -1,1 +1,1 @@
-connection    n 连接；关系；人脉；连接件;
+connection    n.连接; 连接物; 联系, 关联, 关系; 联结, 接通

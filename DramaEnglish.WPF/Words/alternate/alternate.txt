@@ -1,1 +1,1 @@
-alternate    v 交替；轮流;adj 交替的；轮流的;n 替换物;
+alternate    v.交替，轮流

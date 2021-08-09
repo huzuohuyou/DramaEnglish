@@ -1,1 +1,1 @@
-tolerance    n 公差；宽容；容忍；公差;
+tolerance    n.忍受；容忍，宽容，宽恕；公差

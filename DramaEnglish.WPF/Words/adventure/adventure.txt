@@ -1,1 +1,1 @@
-adventure    n 冒险；冒险精神；投机活动;v 冒险；大胆说出;
+adventure    n.冒险，奇遇

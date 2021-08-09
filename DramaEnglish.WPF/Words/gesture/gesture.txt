@@ -1,1 +1,1 @@
-gesture    n 姿态；手势;v 作手势；用动作示意;
+gesture    n.手势；姿态

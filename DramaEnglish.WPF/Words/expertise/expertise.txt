@@ -1,1 +1,1 @@
-expertise    n 专门知识；专门技术；专家的意见;
+expertise    n.专门知识（或技能等），专长

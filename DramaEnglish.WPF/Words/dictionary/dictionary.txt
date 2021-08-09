@@ -1,1 +1,1 @@
-dictionary    n 字典；词典;
+dictionary    n.词典, 字典, 辞书, 专业术语大全

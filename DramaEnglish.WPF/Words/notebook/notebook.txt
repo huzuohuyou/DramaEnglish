@@ -1,1 +1,1 @@
-notebook    n 笔记本，笔记簿；手册;
+notebook    n.笔记本, 【计】笔记本电脑

@@ -1,1 +1,1 @@
-picnic    n 野餐;v 去野餐;
+picnic    n.野餐, 野餐食物

@@ -1,1 +1,1 @@
-resemble    v 类似，像;
+resemble    v.与…相似，类似

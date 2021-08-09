@@ -1,1 +1,1 @@
-fragment    n 碎片；片断或不完整部分;v 使成碎片;
+fragment    n.碎片，碎块，破片；片段

@@ -1,1 +1,1 @@
-goodness    int 天哪;n 善良，优秀 ；精华，养分;
+goodness    n.善良；优良；美德

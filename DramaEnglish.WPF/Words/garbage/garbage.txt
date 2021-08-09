@@ -1,1 +1,1 @@
-garbage    n 垃圾；废物;
+garbage    n.垃圾

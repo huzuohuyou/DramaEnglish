@@ -1,1 +1,1 @@
-dwarf    v 变矮小;n 侏儒，矮子;adj 矮小的;
+dwarf    adj.矮小的

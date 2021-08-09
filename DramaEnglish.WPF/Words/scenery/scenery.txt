@@ -1,1 +1,1 @@
-scenery    n 风景；景色；舞台布景;
+scenery    n.风景，景色；舞台布景

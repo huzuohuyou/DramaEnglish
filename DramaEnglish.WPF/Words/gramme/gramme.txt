@@ -1,1 +1,1 @@
-gramme    n 克;
+gramme    n.克

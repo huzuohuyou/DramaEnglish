@@ -1,1 +1,1 @@
-compress    v 受压缩小;
+compress    vt.压缩，浓缩

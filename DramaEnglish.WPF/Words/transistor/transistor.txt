@@ -1,1 +1,1 @@
-transistor    n 晶体管（收音机）;
+transistor    n.晶体管；晶体管收音机

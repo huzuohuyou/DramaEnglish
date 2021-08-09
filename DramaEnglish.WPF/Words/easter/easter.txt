@@ -1,1 +1,1 @@
-easter    n 复活节;
+Easter    n.复活节

@@ -1,1 +1,1 @@
-outcome    n 结果，结局；成果;
+outcome    n.结果，成果

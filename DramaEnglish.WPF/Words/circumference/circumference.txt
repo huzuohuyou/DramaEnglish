@@ -1,1 +1,1 @@
-circumference    n 圆周；周长；胸围;
+circumference    n.圆周, 圆周长

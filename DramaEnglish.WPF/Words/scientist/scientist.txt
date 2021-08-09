@@ -1,1 +1,1 @@
-scientist    n 科学家;
+scientist    n.科学家, 科学工作者

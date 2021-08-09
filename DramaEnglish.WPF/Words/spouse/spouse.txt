@@ -1,1 +1,1 @@
-spouse    n 配偶;vt 和…结婚;
+spouse    n.配偶

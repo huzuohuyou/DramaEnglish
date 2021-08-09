@@ -1,1 +1,1 @@
-province    n 省；领域；职权;
+province    n.省份; 外省; 职权; 范围, 领域

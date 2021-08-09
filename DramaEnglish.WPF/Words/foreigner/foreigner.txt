@@ -1,1 +1,1 @@
-foreigner    n 外地人，外国人;
+foreigner    n.外国人, 外来人, 外地人

@@ -1,1 +1,1 @@
-lecture    n 演讲；讲稿；教训;v 演讲；训诫;
+lecture    n.演讲, 训斥

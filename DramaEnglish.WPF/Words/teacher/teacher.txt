@@ -1,1 +1,1 @@
-teacher    n 教师；导师;
+teacher    n.教师, 老师, 教员, 先生

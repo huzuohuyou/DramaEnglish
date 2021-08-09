@@ -1,1 +1,1 @@
-dictation    n 听写；口述；命令;
+dictation    n.听写，口述；命令

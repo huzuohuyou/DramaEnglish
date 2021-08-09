@@ -1,1 +1,1 @@
-location    n 位置（形容词locational）；地点；外景拍摄场地;
+location    n.地点，位置，场所

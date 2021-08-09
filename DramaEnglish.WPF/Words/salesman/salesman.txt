@@ -1,1 +1,1 @@
-salesman    n 推销员；售货员;
+salesman    n.售货员，推销员

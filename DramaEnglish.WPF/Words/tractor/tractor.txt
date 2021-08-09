@@ -1,1 +1,1 @@
-tractor    n 拖拉机；牵引机;
+tractor    n.拖拉机；牵引车

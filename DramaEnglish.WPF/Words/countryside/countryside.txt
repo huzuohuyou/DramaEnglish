@@ -1,1 +1,1 @@
-countryside    n 农村，乡下；乡下的全体居民;
+countryside    n.乡村, 郊野

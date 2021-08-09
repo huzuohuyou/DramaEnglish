@@ -1,1 +1,1 @@
-pigeon    n 鸽子;
+pigeon    n.鸽

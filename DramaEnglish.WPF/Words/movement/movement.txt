@@ -1,1 +1,1 @@
-movement    n 运动；活动；运转；乐章;
+movement    n.移动, 活动, 迁移, 乐章

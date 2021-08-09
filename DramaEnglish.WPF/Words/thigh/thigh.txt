@@ -1,1 +1,1 @@
-thigh    n 大腿，股;
+thigh    n.大腿

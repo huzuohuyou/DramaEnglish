@@ -1,1 +1,1 @@
-erosion    n 侵蚀，腐蚀;
+erosion    n.腐蚀，侵蚀

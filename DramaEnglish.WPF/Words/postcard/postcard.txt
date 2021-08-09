@@ -1,1 +1,1 @@
-postcard    n 明信片;
+postcard    n.明信片

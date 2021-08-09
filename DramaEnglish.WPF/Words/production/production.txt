@@ -1,1 +1,1 @@
-production    n 成果；产品；生产；作品;
+production    n.产量；产品，成果；生产，制作

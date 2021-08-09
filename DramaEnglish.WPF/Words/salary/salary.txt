@@ -1,1 +1,1 @@
-salary    vt 给加薪；给薪水;n 薪水;
+salary    n.薪金，薪水

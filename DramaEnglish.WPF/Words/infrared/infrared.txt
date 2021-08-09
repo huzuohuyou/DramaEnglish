@@ -1,1 +1,1 @@
-infrared    n 红外线;adj 红外线的;
+infrared    n.红外线

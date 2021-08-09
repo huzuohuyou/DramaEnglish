@@ -1,1 +1,1 @@
-nationality    n 国籍，国家；民族；部落;
+nationality    n.国籍，民族

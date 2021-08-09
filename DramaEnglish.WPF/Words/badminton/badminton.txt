@@ -1,1 +1,1 @@
-badminton    n 羽毛球;
+badminton    n.羽毛球

@@ -1,1 +1,1 @@
-activate    v 刺激；使活动；使活泼；使产生放射性;
+activate    vt.使活动；启动，激活

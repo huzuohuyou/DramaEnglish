@@ -1,1 +1,1 @@
-aircraft    n 飞机，航空器;
+aircraft    n.飞行器；航空器；飞机

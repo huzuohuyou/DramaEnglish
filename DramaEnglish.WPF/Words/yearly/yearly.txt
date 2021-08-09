@@ -1,1 +1,1 @@
-yearly    adj 每年的;adv 每年；一年一次;n 年刊；年鉴;
+yearly    adj.每年的, 一年一次的, 年度的, 一年的

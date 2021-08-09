@@ -1,1 +1,1 @@
-forehead    n 额，前额;
+forehead    n.额头，前额

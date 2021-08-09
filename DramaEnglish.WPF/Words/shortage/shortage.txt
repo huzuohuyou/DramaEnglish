@@ -1,1 +1,1 @@
-shortage    n 缺乏，缺少；不足;
+shortage    n.不足，缺少，短缺

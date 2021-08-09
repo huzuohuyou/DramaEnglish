@@ -1,1 +1,1 @@
-pavement    n 人行道;
+pavement    n.人行道

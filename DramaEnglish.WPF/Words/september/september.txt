@@ -1,1 +1,1 @@
-september    n 九月;
+September    n.九月

@@ -1,1 +1,1 @@
-purchase    n 购买；紧握；起重装置;v 购买；赢得;
+purchase    n.所购物品；（购）买

@@ -1,1 +1,1 @@
-landlord    n 房东，老板；地主;
+landlord    n.房东；地主

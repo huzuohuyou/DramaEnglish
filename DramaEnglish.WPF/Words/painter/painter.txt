@@ -1,1 +1,1 @@
-painter    n 画家；油漆匠;
+painter    n.画家, 油漆匠, （系船的）缆绳

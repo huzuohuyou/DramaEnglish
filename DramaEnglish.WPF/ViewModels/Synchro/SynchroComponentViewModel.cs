@@ -13,7 +13,7 @@ namespace DramaEnglish.UserInterface.ViewModels.Synchro
     {
 
         #region 字段属性
-
+        private const string path = @"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words";
         private string scanedWords;
         public string ScanedWords { get { return scanedWords; } set { SetProperty(ref scanedWords, value); } }
 
@@ -43,12 +43,13 @@ namespace DramaEnglish.UserInterface.ViewModels.Synchro
         {
             Task.Run(() =>
             {
-                var path = $@"D:\GitHub\DramaEnglish\DramaEnglish.WPF\Words";
                 DirectoryInfo theFolder = new DirectoryInfo(path);
                 var dirs = theFolder.GetDirectories();
 
                 Maximum = dirs.Length - 1;
-
+                //Parallel.ForEach<DirectoryInfo>(dirs, item => {
+                //    Word2DB(item);
+                //});
                 foreach (var item in dirs)
                 {
                     var HAVEMP4 = 0;
@@ -102,7 +103,49 @@ namespace DramaEnglish.UserInterface.ViewModels.Synchro
         #endregion
 
         #region 方法函数
+        private void Word2DB(DirectoryInfo item) {
+            var HAVEMP4 = 0;
+            CurrentIndexStr = $@"{CurrentIndex}/{Maximum}";
+            CurrentIndex++;
+            var detail = string.Empty;
+            try
+            {
+                var detailpath = $@"{path}\{item.Name}\{item.Name}.txt";
+                if (File.Exists(detailpath))
+                    using (StreamReader sr = new StreamReader(detailpath))
+                    {
+                        detail = sr.ReadToEnd();
+                    }
+                if (File.Exists($@"{path}\{item.Name}\{item.Name}.mp4"))
+                {
+                    HAVEMP4 = 1;
+                }
 
+            }
+            catch (System.Exception ex)
+            {
+                ScanedWords += $"\n\r**************************{ ex.Message} **************************";
+            }
+            var currentWord = CommonService.DB.WordDBService.GetWORD(item.Name);
+            if (currentWord == null)
+                currentWord = new CommonService.DB.WORD
+                {
+                    EN = item.Name,
+                    DETAIL = detail.Split("    ").Length >= 2 ? detail.Split("    ")[1] : "",
+                    LINES = new GetCeanLinesService().GetCleanLins(item.Name),
+                    WORDGROUP = "英语二",
+                    HAVEMP4 = HAVEMP4
+                };
+            else
+            {
+                currentWord.HAVEMP4 = HAVEMP4;
+                currentWord.DETAIL = detail.Split("    ").Length >= 2 ? detail.Split("    ")[1] : "";
+                currentWord.LINES = new GetCeanLinesService().GetCleanLins(item.Name);
+            }
+            var ok = CommonService.DB.WordDBService.AddorUpdateWord(currentWord);
+            ScanedWords = $"\n\r OK：{ok}    {CurrentIndexStr}    单词：{item.Name}    媒体文件：{HAVEMP4}    翻译：{currentWord.DETAIL}" + ScanedWords;
+
+        }
         #endregion
 
     }

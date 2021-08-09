@@ -1,1 +1,1 @@
-submerge    v 淹没；把…浸入；沉浸;
+submerge    vt.沉没，淹没

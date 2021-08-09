@@ -1,1 +1,1 @@
-increase    n 增加，增长；提高;v 增加，增大；繁殖;
+increase    n.增加, 增长, 增多

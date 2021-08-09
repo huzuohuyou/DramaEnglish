@@ -1,1 +1,1 @@
-plural    adj 复数的;n 复数;
+plural    n.复数

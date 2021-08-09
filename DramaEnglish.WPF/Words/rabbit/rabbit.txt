@@ -1,1 +1,1 @@
-rabbit    n 兔子，野兔;v 让…见鬼去吧;
+rabbit    n.兔子

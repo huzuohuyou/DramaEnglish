@@ -1,1 +1,1 @@
-temperature    n 温度；体温；气温；发烧;
+temperature    n.温度, 气温, 体温

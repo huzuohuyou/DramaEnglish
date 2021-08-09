@@ -1,1 +1,1 @@
-experience    n 经验；经历；体验;v 经验；经历；体验;
+experience    n.经历, 阅历; 经验; 体验

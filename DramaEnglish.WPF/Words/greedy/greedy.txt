@@ -1,1 +1,1 @@
-greedy    adj 贪婪的；贪吃的；渴望的;
+greedy    adj.贪婪的；贪吃的；渴望的

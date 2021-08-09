@@ -1,1 +1,1 @@
-employment    n 使用；职业；雇用;
+employment    n.工作，职业；雇用

@@ -1,1 +1,1 @@
-corridor    n 走廊;
+corridor    n.走廊；过道；狭长通道

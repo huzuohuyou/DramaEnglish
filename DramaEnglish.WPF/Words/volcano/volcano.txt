@@ -1,1 +1,1 @@
-volcano    n 火山;
+volcano    n.火山

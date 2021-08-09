@@ -1,1 +1,1 @@
-planet    n 行星;
+planet    n.地球；行星

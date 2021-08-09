@@ -1,1 +1,1 @@
-implication    n 含义；暗示；牵连，卷入；可能的结果，影响;
+implication    n.暗示，含义；可能的后果

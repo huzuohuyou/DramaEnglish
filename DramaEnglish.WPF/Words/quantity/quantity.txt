@@ -1,1 +1,1 @@
-quantity    n 量，数量；大量；总量;
+quantity    n.量, 数量, 大量, 数额

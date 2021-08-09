@@ -1,1 +1,1 @@
-trolley    n 手推车；（美）有轨电车（等于trolley car）；（英）无轨电车（等于trolleybus）；空中吊运车;vi 乘电车;vt 用手推车运;
+trolley    n.手推车；台车； <美>有轨电车=<英>tram；<英>无轨电车

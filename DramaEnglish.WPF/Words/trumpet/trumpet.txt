@@ -1,1 +1,1 @@
-trumpet    n 喇叭；喇叭声;v 吹喇叭；吹嘘;
+trumpet    n.喇叭，小号

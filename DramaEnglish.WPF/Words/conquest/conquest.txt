@@ -1,1 +1,1 @@
-conquest    n 征服，战胜；战利品;
+conquest    n.征服

@@ -1,1 +1,1 @@
-stationery    n 文具；信纸;
+stationery    n.文具；信笺；信纸

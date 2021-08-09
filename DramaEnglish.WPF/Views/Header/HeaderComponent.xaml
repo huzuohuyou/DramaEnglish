@@ -6,19 +6,23 @@
              mc:Ignorable="d" 
              Height="50" >
     <Grid  Background="#1890ff" >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"></ColumnDefinition>
-                <ColumnDefinition  Width="20*"></ColumnDefinition>
-                <ColumnDefinition  Width="20*"></ColumnDefinition>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+            <ColumnDefinition  Width="20*"></ColumnDefinition>
+            <ColumnDefinition  Width="20*"></ColumnDefinition>
+            <ColumnDefinition  Width="20*"></ColumnDefinition>
+            <ColumnDefinition  Width="20*"></ColumnDefinition>
             <ColumnDefinition  Width="20*"></ColumnDefinition>
             <ColumnDefinition  Width="20*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBlock Style="{StaticResource TextBlock}" Grid.Column="0" FontSize="20"  Foreground="White"  >Hello Drama English</TextBlock>
-        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="1" FontSize="30"  Foreground="White"  Text="{Binding AlltWordCount}">Total：</TextBlock>
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="1" FontSize="30"  Foreground="White"  >Total：</TextBlock>
         <TextBlock Style="{StaticResource TextBlock}" Grid.Column="2" FontSize="30"  Foreground="White"  Text="{Binding AlltWordCount}"></TextBlock>
-        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="3" FontSize="30"  Foreground="White"  Text="{Binding AlltWordCount}">Learned</TextBlock>
-        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="4" FontSize="30"  Foreground="White"   Text="{Binding KnowWordCount}"></TextBlock>
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="3" FontSize="30"  Foreground="White"  >HasMP4：</TextBlock>
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="4" FontSize="30"  Foreground="White"  Text="{Binding HasMP4Count}"></TextBlock>
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="5" FontSize="30"  Foreground="White"  >Learned</TextBlock>
+        <TextBlock Style="{StaticResource TextBlock}" Grid.Column="6" FontSize="30"  Foreground="White"   Text="{Binding KnowWordCount}"></TextBlock>
 
-        </Grid>
+    </Grid>
 
 </UserControl>

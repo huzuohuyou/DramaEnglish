@@ -1,1 +1,1 @@
-velocity    n 【物】速度;
+velocity    n.速度，速率；高速

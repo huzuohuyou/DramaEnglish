@@ -1,1 +1,1 @@
-clothes    n 衣服;
+clothes    n.衣服, 服装

@@ -1,1 +1,1 @@
-postman    n 邮递员；邮差;
+postman    n.邮递员, 邮差

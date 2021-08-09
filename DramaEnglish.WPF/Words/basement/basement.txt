@@ -1,1 +1,1 @@
-basement    n 地下室；地窖;
+basement    n.地下室，建筑物的底部

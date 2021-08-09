@@ -1,1 +1,1 @@
-student    n 学生；学者;
+student    n.学生, 大学生, 研究生, 学者

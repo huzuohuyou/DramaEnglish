@@ -1,1 +1,1 @@
-spear    n 矛，枪;v 用矛刺;
+spear    n.矛，枪；渔叉

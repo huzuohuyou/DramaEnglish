@@ -1,1 +1,1 @@
-invite    v 邀请，招待；招致;n 邀请;
+invite    n.邀请, 请柬

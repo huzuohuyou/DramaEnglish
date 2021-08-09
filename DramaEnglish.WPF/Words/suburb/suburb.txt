@@ -1,1 +1,1 @@
-suburb    n 郊区；边缘;
+suburb    n.市郊，郊区

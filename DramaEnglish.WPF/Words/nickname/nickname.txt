@@ -1,1 +1,1 @@
-nickname    n 绰号；昵称;v 给……取绰号；叫错名字;
+nickname    n.绰号，外号；诨名

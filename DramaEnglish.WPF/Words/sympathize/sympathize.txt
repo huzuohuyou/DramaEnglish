@@ -1,1 +1,1 @@
-sympathize    v 同情，怜悯；支持;
+sympathize    vi.同情，体谅；共鸣，同感

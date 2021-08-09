@@ -1,1 +1,1 @@
-vacation    n 假期；（房屋）搬出;v 休假，度假;
+vacation    n.假期，休假；休息日

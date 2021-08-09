@@ -1,1 +1,1 @@
-frequency    n 频率；频繁;
+frequency    n.[数]频率; 频繁; 次数; 重复发生率; [物]频率

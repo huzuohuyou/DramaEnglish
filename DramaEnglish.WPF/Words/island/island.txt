@@ -1,1 +1,1 @@
-island    n 岛；岛屿；安全岛；岛状物;adj 岛的;vt 孤立；使成岛状;
+island    adj.岛国的

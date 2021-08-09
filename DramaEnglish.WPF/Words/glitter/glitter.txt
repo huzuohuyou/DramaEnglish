@@ -1,1 +1,1 @@
-glitter    v 闪光；闪烁;n 闪光；灿烂;
+glitter    vi.闪耀

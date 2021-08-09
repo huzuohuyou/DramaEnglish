@@ -1,1 +1,1 @@
-deficiency    n 缺陷，缺点；缺乏；不足的数额;
+deficiency    n.缺乏，不足，缺点

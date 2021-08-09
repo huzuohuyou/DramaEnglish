@@ -1,1 +1,1 @@
-sunday    n 星期日；礼拜日;
+Sunday    n.礼拜日

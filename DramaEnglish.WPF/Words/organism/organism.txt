@@ -1,1 +1,1 @@
-organism    n 有机体；生物体；微生物;
+organism    n.生物，生物体，有机体

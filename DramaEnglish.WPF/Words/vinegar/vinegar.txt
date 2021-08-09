@@ -1,1 +1,1 @@
-vinegar    n 醋;
+vinegar    n.醋

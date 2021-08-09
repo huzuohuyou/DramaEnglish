@@ -1,1 +1,1 @@
-dentist    n 牙科医生;
+dentist    n.牙医；牙科诊所

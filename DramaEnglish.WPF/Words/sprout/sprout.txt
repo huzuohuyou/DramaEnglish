@@ -1,1 +1,1 @@
-sprout    v 发芽；长芽;n 芽；萌芽；苗芽;
+sprout    vi.（out/up）抽条，发芽

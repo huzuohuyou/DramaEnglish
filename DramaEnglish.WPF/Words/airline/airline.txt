@@ -1,1 +1,1 @@
-airline    n 航空公司；航线;adj 航线的;
+airline    n.航线；航空公司

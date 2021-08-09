@@ -1,1 +1,1 @@
-consensus    n 一致；舆论；合意;
+consensus    n.（意见等）一致，一致同意

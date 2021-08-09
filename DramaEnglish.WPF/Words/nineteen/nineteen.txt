@@ -1,1 +1,1 @@
-nineteen    num 十九;
+nineteen    n.十九岁, 十九点钟

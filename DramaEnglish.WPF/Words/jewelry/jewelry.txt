@@ -1,1 +1,1 @@
-jewelry    n 珠宝；珠宝类;
+jewelry    n.珠宝

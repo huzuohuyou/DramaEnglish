@@ -1,1 +1,1 @@
-national    adj 国家的；国民的；民族的；国立的;n 国民;
+national    adj.国家的, 民族的, 全国的, 国有的

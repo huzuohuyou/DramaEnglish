@@ -1,1 +1,1 @@
-synthesis    n 综合，[化学] 合成；综合体;
+synthesis    n.综合；结合；综合体；合成

@@ -1,1 +1,1 @@
-membership    n 资格；成员资格；会员身份;
+membership    n.全体会员；会员数；会员资格；成员资格
